@@ -1,0 +1,43 @@
+
+.cenik-udaje div p {
+    border-bottom: 1px solid var(--c-lightGrey);
+    display:flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 0 !important;
+}
+
+.cenik-udaje div p:first-child {
+    font-weight: 400;
+}
+
+.cenik-udaje div p:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.062);
+}
+
+.cenik-col {
+    display:inline-block;
+}
+
+.cenik-col:first-child {
+    width: 80%;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.cenik-col:last-child {
+    width: 20%;
+    text-align: right;
+}
+
+.cenik-nadpis {
+    font-weight: 400;
+    margin: 4% auto;
+    text-align: left;
+}
+
+@media only screen and (max-width: 668px) {
+    .cenik-nadpis {
+        margin: 8% auto;
+    }
+}

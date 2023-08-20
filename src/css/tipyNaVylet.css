@@ -1,0 +1,207 @@
+.slideshow {
+    display:flex;
+    flex-direction: column;
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slideshow-category {
+    margin: 5% auto;
+}
+
+.slideshow-category h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: clamp(1rem, 2.25rem, 3rem);
+    border-bottom: 1px solid var(--c-grey);
+    padding-bottom: 10px;
+}
+
+.slideshow-child {
+    display:flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.slideshow-item {
+    width: 100%;
+}
+
+.slideshow-img-holder {
+    margin: 0 auto;
+    width: 70%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: cover;
+    box-shadow: var(--bs-classic);
+    transition: width 250ms ease-in-out, height 250ms ease-in-out, margin-left 250ms ease-in-out;
+    will-change: auto;
+}
+
+.slideshow-info p {
+    font-weight: 100 !important;
+    font-size: 1.15rem !important;
+    text-align: left;
+}
+
+.slideshow-button-holder button {
+    display:block;
+    height: 100%;
+    cursor: pointer;
+    background: none;
+    border:none;
+    padding: 500% 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.slideshow-button-holder button.first:hover {
+    /* transform: scale(1.25) */
+    transform: translateX(-15px);
+}
+.slideshow-button-holder button.last:hover {
+    /* transform: scale(1.25) */
+    transform: translateX(15px);
+}
+
+.slideshow-title h3 {
+    font-weight: 300;
+    font-size: 1.75rem;
+    margin: 25px 0;
+}
+
+.slideshow-lower-row {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.slideshow-links span {
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideshow-links a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--c-darkGrey);
+    margin: 5px 15px;
+    gap: 5px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 350ms ease-in-out;
+}
+
+.slideshow-links a:hover {
+    color: var(--c-black);
+    transform: translateY(5px);
+}
+
+/* ANIMACE */
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 1200px) {
+    .slideshow-img-holder {
+        width: 65%;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .slideshow-img-holder {
+        width: 70%;
+        height: 275px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slideshow-img-holder {
+        width: 80%;
+        height: 250px;
+    }
+    .slideshow-info p {
+        padding: 0 20px;
+        text-align: justify !important;
+    }
+    .slideshow-button-holder:first-child {
+        margin-left: 15px;
+    }
+    .slideshow-button-holder:last-child {
+        margin-right: 15px;
+    }
+    .slideshow-lower-row {
+        flex-direction: column;
+    }
+    .slideshow-links {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .slideshow-title h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .slideshow-img-holder {
+        width: 110%;
+        margin-left: -5%;
+    }
+    .slideshow-info p {
+        font-size: 1rem !important;
+        padding: 0 10px !important;
+    }
+    .slideshow-button-holder button {
+        padding: 500% 5px;
+        transform: scale(0.90);
+    }
+    .slideshow-title h3 {
+        font-size: 1.25rem;
+    }
+    .slideshow-button-holder:first-child {
+        margin-left: 5px;
+    }
+    .slideshow-button-holder:last-child {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .slideshow-img-holder {
+        width: 130%;
+        margin-left: -15%;
+    }
+    .slideshow-title h3 {
+        font-size: 1.15rem;
+    }
+}

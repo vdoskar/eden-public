@@ -1,0 +1,29 @@
+.uvodni-ubytovani-gallery {
+    display:flex;
+    flex-direction: column;
+}
+
+.uvodni-ubytovani-child {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uvodni-ubytovani-child a {
+    text-align: center;
+    overflow: hidden;
+}
+
+.uvodni-ubytovani-child a img {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    will-change: transform;
+    transition: transform 0.25s ease-in-out;
+}
+
+.uvodni-ubytovani-child a:hover img {
+    transform: scale(1.05);
+}
