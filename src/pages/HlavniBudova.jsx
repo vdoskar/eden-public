@@ -1,27 +1,6 @@
 import { useEffect } from "react"
 import Gallery from "../components/LightboxGallery"
 
-// import HlBudova0 from "../assets/ubytovani/hlavni-budova/hlavni-budova-0.webp";
-// import HlBudova0s from "../assets/ubytovani/hlavni-budova/hlavni-budova-0-s.webp";
-// import HlBudova1 from "../assets/ubytovani/hlavni-budova/hlavni-budova-1.webp";
-// import HlBudova1s from "../assets/ubytovani/hlavni-budova/hlavni-budova-1-s.webp";
-// import HlBudova2 from "../assets/ubytovani/hlavni-budova/hlavni-budova-2.webp";
-// import HlBudova2s from "../assets/ubytovani/hlavni-budova/hlavni-budova-2-s.webp";
-// import HlBudova3 from "../assets/ubytovani/hlavni-budova/hlavni-budova-3.webp";
-// import HlBudova3s from "../assets/ubytovani/hlavni-budova/hlavni-budova-3-s.webp";
-// import HlBudova4 from "../assets/ubytovani/hlavni-budova/hlavni-budova-4.webp";
-// import HlBudova4s from "../assets/ubytovani/hlavni-budova/hlavni-budova-4-s.webp";
-// import HlBudova5 from "../assets/ubytovani/hlavni-budova/hlavni-budova-5.webp";
-// import HlBudova5s from "../assets/ubytovani/hlavni-budova/hlavni-budova-5-s.webp";
-// import HlBudova6 from "../assets/ubytovani/hlavni-budova/hlavni-budova-6.webp";
-// import HlBudova6s from "../assets/ubytovani/hlavni-budova/hlavni-budova-6-s.webp";
-// import HlBudova7 from "../assets/ubytovani/hlavni-budova/hlavni-budova-7.webp";
-// import HlBudova7s from "../assets/ubytovani/hlavni-budova/hlavni-budova-7-s.webp";
-// import HlBudova8 from "../assets/ubytovani/hlavni-budova/hlavni-budova-8.webp";
-// import HlBudova8s from "../assets/ubytovani/hlavni-budova/hlavni-budova-8-s.webp";
-// import HlBudova9 from "../assets/ubytovani/hlavni-budova/hlavni-budova-9.webp";
-// import HlBudova9s from "../assets/ubytovani/hlavni-budova/hlavni-budova-9-s.webp";
-
 function HlBudovaPage() {
     useEffect(() => {
         document.title = 'Hlavní budova | Ubytování | Eden Jinolice';

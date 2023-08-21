@@ -10,12 +10,7 @@ function NotFoundPage() {
 
     return (
         <div className="main">
-            <Heading text="404 Nenalezeno" img={HeadingImage}/>
-            <div className="main-content">
-                <section className="main-section">
-                    <h2>Nenašli jste, co jste hledali?</h2>
-                </section>
-            </div>
+            <Heading text="404 STRÁNKA NENALEZENA" />
         </div>
     )
 }

@@ -3,30 +3,6 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Heading from "../components/Heading"
 import "../css/tipyNaVylet.css"
 
-// import WebImage from "../assets/webpage.webp"
-// import TrasaImage from "../assets/path.webp"
-// import MapyImage from "../assets/map.webp"
-// import HeadingImage from "../assets/tipy-na-vylety.webp"
-
-// import ValdstejnskyZamekImage from '../assets/tipy_na_vylety/valdstejnsky-zamek.webp';
-// import HumprechtImage from '../assets/tipy_na_vylety/humprecht.webp';
-// import HrubaSkalaImage from '../assets/tipy_na_vylety/hruba-skala.webp';
-// import StareHradyImage from '../assets/tipy_na_vylety/stare-hrady.webp';
-// import SychrovImage from '../assets/tipy_na_vylety/sychrov.webp';
-// import TroskyImage from '../assets/tipy_na_vylety/trosky.webp';
-// import KostImage from '../assets/tipy_na_vylety/kost.webp';
-// import ValdstejnImage from '../assets/tipy_na_vylety/valdstejn.webp';
-// import AquaCentrumJicinImage from '../assets/tipy_na_vylety/aquacentrumjicin.webp';
-// import KnizeImage from "../assets/tipy_na_vylety/knize.webp"
-// import JinoliceImage from "../assets/tipy_na_vylety/jinolice.webp"
-// import PodtroseckeUdoliImage from "../assets/tipy_na_vylety/podtrosecke-udoli.webp"
-// import MaloskalskoImage from "../assets/tipy_na_vylety/maloskalsko.webp"
-// import KozakovImage from "../assets/tipy_na_vylety/kozakov.webp"
-// import PrachovImage from "../assets/tipy_na_vylety/prachov.webp"
-// import HruboskalskoImage from "../assets/tipy_na_vylety/hruboskalsko.webp"
-// import KlokocskeImage from "../assets/tipy_na_vylety/klokocske.webp"
-// import BesediceImage from "../assets/tipy_na_vylety/besedice.webp"
-
 const Slideshow = ({ items }) => {
     const [currentItem, setCurrentItem] = useState(0);
 

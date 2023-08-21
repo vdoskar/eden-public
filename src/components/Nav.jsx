@@ -62,6 +62,7 @@ const SubmenuItem = ({ submenuItem }) => {
             case '/rezervace': return 'rezervace';
             case '/stravovani': return 'stravovani';
             case '/zabava-a-sport': return 'zabava-a-sport';
+            case '/novinky': return 'novinky';
             default: return 'uvod';
         }
     };
@@ -125,61 +126,52 @@ function Navigation() {
         },
     ]
 
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [isNewPageOpen, setIsNewPageOpen] = useState(true);
+    const [prevLocation, setPrevLocation] = useState('');
+    let currLocation = useLocation();
 
-    let app, nav
-    let resizeTimer, navbarMain;
+    // ukládá poslední navštívenou stránku a zavírá nav při kliku na linky
+    useEffect(() => {
+
+        const currentPath = window.location.pathname;
+
+        if (prevLocation != currentPath) {
+            if (window.innerWidth <= navWidth && isMobileMenuOpen) {
+                toggleMobileMenu();
+            }
+        }
+
+        const prevPath = setPrevLocation(currentPath)
+
+    }, [currLocation]);
+
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const navWidth = 812
+    let resizeTimer;
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
 
         if (!isMobileMenuOpen) {
-            app.style.opacity = "0.5";
+            document.querySelectorAll(".overflow")[0].style.opacity = "0.5";
             console.log("mobile menu open")
         } else {
-            app.style.opacity = "1";
+            document.querySelectorAll(".overflow")[0].style.opacity = "1";
             console.log("mobile menu closed")
         }
     };
 
-    const toggleNewPageOpen = () => {
-        setIsNewPageOpen(!isNewPageOpen);
-        //console.log("new page open : ", isNewPageOpen )
-    }
-
-    const closeMobileMenu = () => {
-        setIsMobileMenuOpen(false);
-    };
-
-    const closeNav = () => {
-        if (navbarMain.classList.contains("mobile-menu-open")) {
-            navbarMain.classList.remove("mobile-menu-open");
-            toggleMobileMenu();
-        }
-    }
-
     useEffect(() => {
-        app = document.querySelectorAll(".overflow")[0];
-        nav = document.getElementById("navbar_main")
-        navbarMain = document.getElementById("navbar_main");
-
-        app.addEventListener("click", () => {
+        document.querySelectorAll(".overflow")[0].addEventListener("click", () => {
             if (window.innerWidth <= navWidth && isMobileMenuOpen) {
                 toggleMobileMenu();
             }
         });
-
-        if (isNewPageOpen) {
-            toggleNewPageOpen();
-        }
     })
 
     const handleMobileNav = () => {
         if (window.innerWidth >= navWidth) {
-            if (navbarMain.classList.contains("mobile-menu-open")) {
-                navbarMain.classList.remove("mobile-menu-open");
+            if (document.getElementById("navbar_main").classList.contains("mobile-menu-open")) {
+                document.getElementById("navbar_main").classList.remove("mobile-menu-open");
                 toggleMobileMenu();
             }
         }

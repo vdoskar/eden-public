@@ -2,13 +2,6 @@
 import { useEffect } from "react"
 import Gallery from "../components/LightboxGallery"
 
-// import Stan0 from "../assets/ubytovani/stanovani/stanovani-0.webp";
-// import Stan0s from "../assets/ubytovani/stanovani/stanovani-0-s.webp";
-// import Stan1 from "../assets/ubytovani/stanovani/stanovani-1.webp";
-// import Stan1s from "../assets/ubytovani/stanovani/stanovani-1-s.webp";
-// import Stan2 from "../assets/ubytovani/stanovani/stanovani-2.webp";
-// import Stan2s from "../assets/ubytovani/stanovani/stanovani-2-s.webp";
-
 function StanovaniPage() {
     useEffect(() => {
         document.title = 'Stanování | Ubytování | Eden Jinolice';

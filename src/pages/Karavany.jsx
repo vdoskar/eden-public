@@ -2,23 +2,6 @@
 import { useEffect } from "react"
 import Gallery from "../components/LightboxGallery"
 
-// import Karavany0 from "../assets/ubytovani/karavany/karavany-0.webp";
-// import Karavany0s from "../assets/ubytovani/karavany/karavany-0-s.webp";
-// import Karavany1 from "../assets/ubytovani/karavany/karavany-1.webp";
-// import Karavany1s from "../assets/ubytovani/karavany/karavany-1-s.webp";
-// import Karavany2 from "../assets/ubytovani/karavany/karavany-2.webp";
-// import Karavany2s from "../assets/ubytovani/karavany/karavany-2-s.webp";
-// import Karavany3 from "../assets/ubytovani/karavany/karavany-3.webp";
-// import Karavany3s from "../assets/ubytovani/karavany/karavany-3-s.webp";
-// import Karavany4 from "../assets/ubytovani/karavany/karavany-4.webp";
-// import Karavany4s from "../assets/ubytovani/karavany/karavany-4-s.webp";
-// import Karavany5 from "../assets/ubytovani/karavany/karavany-5.webp";
-// import Karavany5s from "../assets/ubytovani/karavany/karavany-5-s.webp";
-// import Karavany6 from "../assets/ubytovani/karavany/karavany-6.webp";
-// import Karavany6s from "../assets/ubytovani/karavany/karavany-6-s.webp";
-// import Karavany7 from "../assets/ubytovani/karavany/karavany-7.webp";
-// import Karavany7s from "../assets/ubytovani/karavany/karavany-7-s.webp";
-
 function KaravanyPage() {
     useEffect(() => {
         document.title = 'Karavany | Ubytování | Eden Jinolice';

@@ -1,68 +1,10 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import Heading from "../components/Heading"
 import Gallery from "../components/LightboxGallery"
-
-// import HeadingImage from "../assets/zabava_a_sport.webp"
-
-// import Bazen0 from "../assets/zabava_a_sport/bazen/bazen-0.webp"
-// import Bazen0s from "../assets/zabava_a_sport/bazen/bazen-0-s.webp"
-// import Bazen1 from "../assets/zabava_a_sport/bazen/bazen-1.webp"
-// import Bazen1s from "../assets/zabava_a_sport/bazen/bazen-1-s.webp"
-// import Bazen2 from "../assets/zabava_a_sport/bazen/bazen-2.webp"
-// import Bazen2s from "../assets/zabava_a_sport/bazen/bazen-2-s.webp"
-
-// import Hriste0 from "../assets/zabava_a_sport/hriste/hriste-0.webp"
-// import Hriste0s from "../assets/zabava_a_sport/hriste/hriste-0-s.webp"
-// import Hriste1 from "../assets/zabava_a_sport/hriste/hriste-1.webp"
-// import Hriste1s from "../assets/zabava_a_sport/hriste/hriste-1-s.webp"
-// import Hriste2 from "../assets/zabava_a_sport/hriste/hriste-2.webp"
-// import Hriste2s from "../assets/zabava_a_sport/hriste/hriste-2-s.webp"
-
-// import Ohniste0 from "../assets/zabava_a_sport/ohniste/ohniste-0.webp"
-// import Ohniste0s from "../assets/zabava_a_sport/ohniste/ohniste-0-s.webp"
-// import Ohniste1 from "../assets/zabava_a_sport/ohniste/ohniste-1.webp"
-// import Ohniste1s from "../assets/zabava_a_sport/ohniste/ohniste-1-s.webp"
-// import Ohniste2 from "../assets/zabava_a_sport/ohniste/ohniste-2.webp"
-// import Ohniste2s from "../assets/zabava_a_sport/ohniste/ohniste-2-s.webp"
-// import Ohniste3 from "../assets/zabava_a_sport/ohniste/ohniste-3.webp"
-// import Ohniste3s from "../assets/zabava_a_sport/ohniste/ohniste-3-s.webp"
-// import Ohniste4 from "../assets/zabava_a_sport/ohniste/ohniste-4.webp"
-// import Ohniste4s from "../assets/zabava_a_sport/ohniste/ohniste-4-s.webp"
-
-// import Plaz0 from "../assets/zabava_a_sport/plaz/plaz-0.webp"
-// import Plaz0s from "../assets/zabava_a_sport/plaz/plaz-0-s.webp"
-// import Plaz1 from "../assets/zabava_a_sport/plaz/plaz-1.webp"
-// import Plaz1s from "../assets/zabava_a_sport/plaz/plaz-1-s.webp"
-// import Plaz2 from "../assets/zabava_a_sport/plaz/plaz-2.webp"
-// import Plaz2s from "../assets/zabava_a_sport/plaz/plaz-2-s.webp"
-// import Plaz3 from "../assets/zabava_a_sport/plaz/plaz-3.webp"
-// import Plaz3s from "../assets/zabava_a_sport/plaz/plaz-3-s.webp"
-// import Plaz4 from "../assets/zabava_a_sport/plaz/plaz-4.webp"
-// import Plaz4s from "../assets/zabava_a_sport/plaz/plaz-4-s.webp"
-
-// import Rybareni0 from "../assets/zabava_a_sport/rybareni/rybareni-0.webp"
-// import Rybareni0s from "../assets/zabava_a_sport/rybareni/rybareni-0-s.webp"
-// import Rybareni1 from "../assets/zabava_a_sport/rybareni/rybareni-1.webp"
-// import Rybareni1s from "../assets/zabava_a_sport/rybareni/rybareni-1-s.webp"
-// import Rybareni2 from "../assets/zabava_a_sport/rybareni/rybareni-2.webp"
-// import Rybareni2s from "../assets/zabava_a_sport/rybareni/rybareni-2-s.webp"
-
-// import StolniTenis0 from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-0.webp"
-// import StolniTenis0s from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-0-s.webp"
-// import StolniTenis1 from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-1.webp"
-// import StolniTenis1s from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-1-s.webp"
-// import StolniTenis2 from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-2.webp"
-// import StolniTenis2s from "../assets/zabava_a_sport/stolni-tenis/stolni-tenis-2-s.webp"
-
-// import Volejbal0 from "../assets/zabava_a_sport/volejbal/volejbal-0.webp"
-// import Volejbal0s from "../assets/zabava_a_sport/volejbal/volejbal-0-s.webp"
-// import Volejbal1 from "../assets/zabava_a_sport/volejbal/volejbal-1.webp"
-// import Volejbal1s from "../assets/zabava_a_sport/volejbal/volejbal-1-s.webp"
-
 import "../css/ZabavaSport.css"
 
-
 function ZabavaSportPage() {
+    
     useEffect(() => {
         document.title = "Zábava a sport | Eden Jinolice";
     }, []);

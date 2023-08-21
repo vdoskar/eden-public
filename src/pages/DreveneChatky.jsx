@@ -1,15 +1,6 @@
 import { useEffect } from "react"
 import Gallery from "../components/LightboxGallery"
 
-// import DrChatky0 from "../assets/ubytovani/drevene-chatky/drevene-chatky-0.webp";
-// import DrChatky0s from "../assets/ubytovani/drevene-chatky/drevene-chatky-0-s.webp";
-// import DrChatky1 from "../assets/ubytovani/drevene-chatky/drevene-chatky-1.webp";
-// import DrChatky1s from "../assets/ubytovani/drevene-chatky/drevene-chatky-1-s.webp";
-// import DrChatky2 from "../assets/ubytovani/drevene-chatky/drevene-chatky-2.webp";
-// import DrChatky2s from "../assets/ubytovani/drevene-chatky/drevene-chatky-2-s.webp";
-// import DrChatky3 from "../assets/ubytovani/drevene-chatky/drevene-chatky-3.webp";
-// import DrChatky3s from "../assets/ubytovani/drevene-chatky/drevene-chatky-3-s.webp";
-
 function DrChatkyPage() {
     useEffect(() => {
         document.title = 'Dřevěné chatky | Ubytování | Eden Jinolice';

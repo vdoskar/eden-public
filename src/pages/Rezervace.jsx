@@ -1,8 +1,6 @@
 import { useEffect } from "react"
 import Heading from "../components/Heading"
 
-// import HeadingImage from "../assets/rezervacni-formular.webp"
-
 function RezervacePage() {
     useEffect(() => {
         document.title = 'Rezervace | Eden Jinolice';

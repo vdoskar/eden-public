@@ -2,34 +2,6 @@ import { useEffect } from "react"
 
 import Gallery from "../components/LightboxGallery"
 
-// import LogoMarvel from "../assets/logo-marvel.webp"
-// import MobilniDomy0 from "../assets/ubytovani/mobilni-domy/mobilni-domy-0.webp";
-// import MobilniDomy0s from "../assets/ubytovani/mobilni-domy/mobilni-domy-0-s.webp";
-// import MobilniDomy1 from "../assets/ubytovani/mobilni-domy/mobilni-domy-1.webp";
-// import MobilniDomy1s from "../assets/ubytovani/mobilni-domy/mobilni-domy-1-s.webp";
-// import MobilniDomy2 from "../assets/ubytovani/mobilni-domy/mobilni-domy-2.webp";
-// import MobilniDomy2s from "../assets/ubytovani/mobilni-domy/mobilni-domy-2-s.webp";
-// import MobilniDomy3 from "../assets/ubytovani/mobilni-domy/mobilni-domy-3.webp";
-// import MobilniDomy3s from "../assets/ubytovani/mobilni-domy/mobilni-domy-3-s.webp";
-// import MobilniDomy4 from "../assets/ubytovani/mobilni-domy/mobilni-domy-4.webp";
-// import MobilniDomy4s from "../assets/ubytovani/mobilni-domy/mobilni-domy-4-s.webp";
-// import MobilniDomy5 from "../assets/ubytovani/mobilni-domy/mobilni-domy-5.webp";
-// import MobilniDomy5s from "../assets/ubytovani/mobilni-domy/mobilni-domy-5-s.webp";
-// import MobilniDomy6 from "../assets/ubytovani/mobilni-domy/mobilni-domy-6.webp";
-// import MobilniDomy6s from "../assets/ubytovani/mobilni-domy/mobilni-domy-6-s.webp";
-// import MobilniDomy7 from "../assets/ubytovani/mobilni-domy/mobilni-domy-7.webp";
-// import MobilniDomy7s from "../assets/ubytovani/mobilni-domy/mobilni-domy-7-s.webp";
-// import MobilniDomy8 from "../assets/ubytovani/mobilni-domy/mobilni-domy-8.webp";
-// import MobilniDomy8s from "../assets/ubytovani/mobilni-domy/mobilni-domy-8-s.webp";
-// import MobilniDomy9 from "../assets/ubytovani/mobilni-domy/mobilni-domy-9.webp";
-// import MobilniDomy9s from "../assets/ubytovani/mobilni-domy/mobilni-domy-9-s.webp";
-// import MobilniDomy10 from "../assets/ubytovani/mobilni-domy/mobilni-domy-10.webp";
-// import MobilniDomy10s from "../assets/ubytovani/mobilni-domy/mobilni-domy-10-s.webp";
-// import MobilniDomy11 from "../assets/ubytovani/mobilni-domy/mobilni-domy-11.webp";
-// import MobilniDomy11s from "../assets/ubytovani/mobilni-domy/mobilni-domy-11-s.webp";
-// import MobilniDomy12 from "../assets/ubytovani/mobilni-domy/mobilni-domy-12.webp";
-// import MobilniDomy12s from "../assets/ubytovani/mobilni-domy/mobilni-domy-12-s.webp";
-
 function MobDomyPage() {
     useEffect(() => {
         document.title = 'Mobilní domy | Ubytování | Eden Jinolice';

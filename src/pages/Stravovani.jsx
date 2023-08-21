@@ -1,35 +1,14 @@
 import { useEffect } from "react"
 import Heading from "../components/Heading"
 
-import HeadingImage from "../assets/stravovani.webp"
 import Gallery from "../components/LightboxGallery"
-
-// import Stravovani0 from "../assets/stravovani/stravovani/stravovani-0.webp";
-// import Stravovani0s from "../assets/stravovani/stravovani/stravovani-0-s.webp";
-// import Stravovani1 from "../assets/stravovani/stravovani/stravovani-1.webp";
-// import Stravovani1s from "../assets/stravovani/stravovani/stravovani-1-s.webp";
-// import Stravovani2 from "../assets/stravovani/stravovani/stravovani-2.webp";
-// import Stravovani2s from "../assets/stravovani/stravovani/stravovani-2-s.webp";
-// import Stravovani3 from "../assets/stravovani/stravovani/stravovani-3.webp";
-// import Stravovani3s from "../assets/stravovani/stravovani/stravovani-3-s.webp";
-// import Stravovani4 from "../assets/stravovani/stravovani/stravovani-4.webp";
-// import Stravovani4s from "../assets/stravovani/stravovani/stravovani-4-s.webp";
-// import Stravovani5 from "../assets/stravovani/stravovani/stravovani-5.webp";
-// import Stravovani5s from "../assets/stravovani/stravovani/stravovani-5-s.webp";
-// import Stravovani6 from "../assets/stravovani/stravovani/stravovani-6.webp";
-// import Stravovani6s from "../assets/stravovani/stravovani/stravovani-6-s.webp";
-// import Stravovani7 from "../assets/stravovani/stravovani/stravovani-7.webp";
-// import Stravovani7s from "../assets/stravovani/stravovani/stravovani-7-s.webp";
-// import Stravovani8 from "../assets/stravovani/stravovani/stravovani-8.webp";
-// import Stravovani8s from "../assets/stravovani/stravovani/stravovani-8-s.webp";
-
-
 
 function StravovaniPage() {
     useEffect(() => {
         document.title = 'Stravování | Eden Jinolice';
     }, []);
 
+    const HeadingImage = "http://cdn.edenjinolice.cz/web_assets/stravovani.webp";
     const Stravovani0 = "http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-0.webp";
     const Stravovani0s = "http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-0-s.webp";
     const Stravovani1 = "http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-1.webp";

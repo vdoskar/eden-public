@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes  } from "react-router-dom"
+import { useState, useEffect } from 'react';
 
 // komponenty
 import Navigation from "./components/Nav"
@@ -18,21 +19,32 @@ import StravovaniPage from "./pages/Stravovani"
 import ZabavaSportPage from "./pages/ZabavaASport"
 import NotFoundPage from "./pages/NotFound"
 
+function External({url}) {
+  window.location.href = url;
+  return null;
+}
+
 function App() {
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   return (
     <div className="App">
+      
       <header className="header">
-        <Navigation />
+        <Navigation/>
       </header>
+
       <div className="overflow" id='overflow'>
         <main className="main">
           <ScrollToTop />
           <Routes>
 
-            <Route path="/github">
-              <Redirect to="https://github.com/vdoskar/eden-public" />
-            </Route>
+            <Route path="/github" element= {<External url="https://github.com/vdoskar/eden-public"/> }></Route>
 
             <Route path="/" element={<UvodPage />} />
             <Route path="/ubytovani" element={<UbytovaniPage />} />
@@ -52,6 +64,7 @@ function App() {
             <Route path="/kontakt" element={<KontaktPage />} />
             <Route path="/rezervace" element={<RezervacePage />} />
             <Route path="*" element={<NotFoundPage />} />
+
           </Routes>
 
           <ContactSection />

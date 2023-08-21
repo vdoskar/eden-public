@@ -4,10 +4,6 @@ import Heading from "../components/Heading"
 import UbytovaniMenu from "../components/UbytovaniMenu"
 import "../css/Ubytovani.css"
 
-// import HeadingImage from "../assets/ubytovani.webp"
-// import MapaFull from "../assets/ubytovani/main/mapa_camp.webp"
-// import MapaSmall from "../assets/ubytovani/main/mapa_camp_small.webp"
-
 // ubytování ->
 import DrChatkyPage from '../pages/DreveneChatky'
 import HlBudovaPage from '../pages/HlavniBudova'

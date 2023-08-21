@@ -2,11 +2,6 @@ import { useEffect } from "react"
 import Heading from "../components/Heading"
 import "../css/kontakt.css"
 
-// import HeadingImage from "../assets/kontakt2.webp"
-// import EmailImage from "../assets/email.webp"
-// import PhoneImage from "../assets/phone.webp"
-// import AdresaImage from "../assets/address.webp"
-
 function KontaktPage() {
 
     useEffect(() => {

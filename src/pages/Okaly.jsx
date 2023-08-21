@@ -1,21 +1,6 @@
 import { useEffect } from "react"
 import Gallery from "../components/LightboxGallery"
 
-// import Okaly0 from "../assets/ubytovani/okaly/okaly-0.webp";
-// import Okaly0s from "../assets/ubytovani/okaly/okaly-0-s.webp";
-// import Okaly1 from "../assets/ubytovani/okaly/okaly-1.webp";
-// import Okaly1s from "../assets/ubytovani/okaly/okaly-1-s.webp";
-// import Okaly2 from "../assets/ubytovani/okaly/okaly-2.webp";
-// import Okaly2s from "../assets/ubytovani/okaly/okaly-2-s.webp";
-// import Okaly3 from "../assets/ubytovani/okaly/okaly-3.webp";
-// import Okaly3s from "../assets/ubytovani/okaly/okaly-3-s.webp";
-// import Okaly4 from "../assets/ubytovani/okaly/okaly-4.webp";
-// import Okaly4s from "../assets/ubytovani/okaly/okaly-4-s.webp";
-// import Okaly5 from "../assets/ubytovani/okaly/okaly-5.webp";
-// import Okaly5s from "../assets/ubytovani/okaly/okaly-5-s.webp";
-// import Okaly6 from "../assets/ubytovani/okaly/okaly-6.webp";
-// import Okaly6s from "../assets/ubytovani/okaly/okaly-6-s.webp";
-
 function OkalyPage() {
     useEffect(() => {
         document.title = 'Okály | Ubytování | Eden Jinolice';

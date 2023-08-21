@@ -2,17 +2,6 @@ import { useEffect } from "react"
 
 import Gallery from "../components/LightboxGallery";
 
-// import VCh0 from "../assets/ubytovani/velke-chaty/velke-chaty-0.webp"
-// import VCh0s from "../assets/ubytovani/velke-chaty/velke-chaty-0-s.webp"
-// import VCh1 from "../assets/ubytovani/velke-chaty/velke-chaty-1.webp"
-// import VCh1s from "../assets/ubytovani/velke-chaty/velke-chaty-1-s.webp"
-// import VCh2 from "../assets/ubytovani/velke-chaty/velke-chaty-2.webp"
-// import VCh2s from "../assets/ubytovani/velke-chaty/velke-chaty-2-s.webp"
-// import VCh3 from "../assets/ubytovani/velke-chaty/velke-chaty-3.webp"
-// import VCh3s from "../assets/ubytovani/velke-chaty/velke-chaty-3-s.webp"
-// import VCh4 from "../assets/ubytovani/velke-chaty/velke-chaty-4.webp"
-// import VCh4s from "../assets/ubytovani/velke-chaty/velke-chaty-4-s.webp"
-
 function VelkeChatyPage() {
     useEffect(() => {
         document.title = 'Velké chaty | Ubytování | Eden Jinolice';

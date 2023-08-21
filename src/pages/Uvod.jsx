@@ -3,10 +3,6 @@ import { Link } from "react-router-dom"
 
 import HeadingUvod from "../components/HeadingUvod"
 
-// import UbytovaniImage from "../assets/ubytovani.webp"
-// import CenikImage from "../assets/cenik.webp"
-// import TipyNaVyletyImage from "../assets/tipy-na-vylety.webp"
-
 import UvodniVideo720w from "../assets/uvod_720.webm"
 import UvodniVideo1080w from "../assets/uvod_1080.webm"
 import UvodniVideo720mp from "../assets/uvod_720.mp4"
