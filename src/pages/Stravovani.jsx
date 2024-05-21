@@ -10,7 +10,7 @@ function StravovaniPage() {
 	const HeadingImage = "http://cdn.edenjinolice.cz/web_assets/stravovani.webp";
 	const stravovani = [
 		{
-			name: "Galerie stravování",
+			name: "Galerie restaurace",
 			description: "",
 			gallery: [
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-0.webp",
