@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function HeadingUvod({ text, videos720, videos1080 }) {
+function HeadingUvod({ text, videos }) {
     const imgHolderStyles = {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -33,23 +33,12 @@ function HeadingUvod({ text, videos720, videos1080 }) {
         document.getElementById('uvod-vid').play();
     }, []);
 
-    const video1080 = true;
-    let mainVideo, backupVideo
-
-    if (video1080) {
-        mainVideo = videos1080[0];
-        backupVideo = videos1080[1];
-    } else {
-        mainVideo = videos720[0];
-        backupVideo = videos720[1];
-    }
-
     return (
         <div className="main-heading">
             <div className="img-holder uvod-vid-holder" style={ imgHolderStyles }>
                 <video autoPlay loop muted preload="true" style={videoStyles} id="uvod-vid">
-                    <source src={mainVideo} type="video/webm"/>
-                    <source src={backupVideo} type="video/mp4"/>
+                    <source src={videos[0]} type="video/webm"/>
+                    <source src={videos[1]} type="video/mp4"/>
                     Tento prohlížeč nepodporuje přehrávání videa
                 </video>
                 <div className='title-holder' style={titleStyles}>

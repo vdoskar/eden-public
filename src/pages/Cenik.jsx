@@ -8,7 +8,6 @@ function CenikPage() {
     }, []);
 
     const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/cenik.webp';
-
     const priceDict = [
         {
             kategorie: "Hlavní ubytování",

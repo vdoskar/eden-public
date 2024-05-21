@@ -1,14 +1,13 @@
-import { Route, Routes  } from "react-router-dom"
-import { useState, useEffect } from 'react';
+import { Route, Routes } from "react-router-dom"
 
-// komponenty
+// components
 import Navigation from "./components/Nav"
 import Footer from "./components/Footer"
 import ContactSection from './components/ContactSection'
 import ScrollButton from './components/BackToTop'
 import ScrollToTop from './components/ScrollToTop'
 
-// stránky
+// pages
 import UvodPage from "./pages/Uvod"
 import UbytovaniPage from "./pages/Ubytovani"
 import CenikPage from "./pages/Cenik"
@@ -19,64 +18,46 @@ import StravovaniPage from "./pages/Stravovani"
 import ZabavaSportPage from "./pages/ZabavaASport"
 import NotFoundPage from "./pages/NotFound"
 
-function External({url}) {
-  window.location.href = url;
-  return null;
-}
-
 function App() {
+	return (
+		<div className="App">
+			<header className="header">
+				<Navigation />
+			</header>
+			<div className="overflow" id='overflow'>
+				<main className="main">
+					<ScrollToTop />
+					<Routes>
 
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+						<Route path="/" element={<UvodPage />} />
+						<Route path="/ubytovani" element={<UbytovaniPage />} />
 
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
+						<Route path="/ubytovani/drevene-chatky" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/hlavni-budova" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/karavany" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/mobilni-domy" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/okaly" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/stanovani" element={<UbytovaniPage />} />
+						<Route path="/ubytovani/velke-chaty" element={<UbytovaniPage />} />
 
-  return (
-    <div className="App">
-      
-      <header className="header">
-        <Navigation/>
-      </header>
+						<Route path="/stravovani" element={<StravovaniPage />} />
+						<Route path="/zabava-a-sport" element={<ZabavaSportPage />} />
+						<Route path="/cenik" element={<CenikPage />} />
+						<Route path="/tipy-na-vylet" element={<TipyNaVyletPage />} />
+						<Route path="/kontakt" element={<KontaktPage />} />
+						<Route path="/rezervace" element={<RezervacePage />} />
+						<Route path="*" element={<NotFoundPage />} />
 
-      <div className="overflow" id='overflow'>
-        <main className="main">
-          <ScrollToTop />
-          <Routes>
+					</Routes>
 
-            <Route path="/github" element= {<External url="https://github.com/vdoskar/eden-public"/> }></Route>
-
-            <Route path="/" element={<UvodPage />} />
-            <Route path="/ubytovani" element={<UbytovaniPage />} />
-
-              <Route path="/ubytovani/drevene-chatky" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/hlavni-budova" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/karavany" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/mobilni-domy" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/okaly" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/stanovani" element={<UbytovaniPage />} />
-              <Route path="/ubytovani/velke-chaty" element={<UbytovaniPage />} />
-
-            <Route path="/stravovani" element={<StravovaniPage />} />
-            <Route path="/zabava-a-sport" element={<ZabavaSportPage />} />
-            <Route path="/cenik" element={<CenikPage />} />
-            <Route path="/tipy-na-vylet" element={<TipyNaVyletPage />} />
-            <Route path="/kontakt" element={<KontaktPage />} />
-            <Route path="/rezervace" element={<RezervacePage />} />
-            <Route path="*" element={<NotFoundPage />} />
-
-          </Routes>
-
-          <ContactSection />
-          <ScrollButton />
-        </main>
-        <footer className="footer">
-          <Footer />
-        </footer>
-      </div>
-    </div>
-  )
-
+					<ContactSection />
+					<ScrollButton />
+				</main>
+				<footer className="footer">
+					<Footer />
+				</footer>
+			</div>
+		</div>
+	)
 }
-
 export default App
