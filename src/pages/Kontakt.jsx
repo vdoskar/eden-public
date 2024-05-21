@@ -32,9 +32,22 @@ function KontaktPage() {
 							<h3>Spojení</h3>
 							<br />
 
-							<p style={p1}><img width="30px" src={PhoneImage} style={{ marginRight: "10px" }} /><a style={a1} href="tel:+420493591930">+420 493 591 930</a></p><br />
+							<p style={p1}>
+								<img width="30px" src={PhoneImage} style={{ marginRight: "10px" }} />
+								<a style={a1} href="tel:+420493591930">+420 493 591 930</a>
+							</p>
+							<br />
 
-							<p style={p1}><img width="30px" src={EmailImage} style={{ marginRight: "10px" }} /><a style={a1} href="mailto:info@eden-jinolice.cz">info@eden-jinolice.cz</a></p>
+							<p style={p1}>
+								<img width="30px" src={PhoneImage} style={{ marginRight: "10px" }} />
+								<a style={a1} href="tel:+420493591930">+420 732 588 486</a>
+							</p>
+							<br />
+
+							<p style={p1}>
+								<img width="30px" src={EmailImage} style={{ marginRight: "10px" }} />
+								<a style={a1} href="mailto:info@eden-jinolice.cz">info@eden-jinolice.cz</a>
+							</p>
 						</div>
 					</div>
 				</section>
@@ -42,18 +55,18 @@ function KontaktPage() {
 					<h2>Otevírací doba</h2>
 					<div className="udaje" style={{ textAlign: "center" }}>
 						<div>
-							<h3>Rekreační zařízení</h3>
+							<h3>Rekreační zařízení <br /> (Červenec - srpen)</h3>
 							<br />
-							<p><span className="time-col">Pondělí</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Úterý</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Středa</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Čtvrtek</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Pátek</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Sobota</span><span className="time-col">8:00 - 20:00</span></p>
-							<p><span className="time-col">Neděle</span><span className="time-col">8:00 - 20:00</span></p>
+							<p><span className="time-col">Pondělí</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Úterý</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Středa</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Čtvrtek</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Pátek</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Sobota</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">Neděle</span><span className="time-col">7:00 - 21:00</span></p>
 						</div>
 						<div>
-							<h3>Kuchyně</h3>
+							<h3>Restaurace <br /> &nbsp;</h3>
 							<br />
 							<p><span className="time-col">Pondělí</span><span className="time-col">8:00 - 22:00</span></p>
 							<p><span className="time-col">Úterý</span><span className="time-col">8:00 - 22:00</span></p>

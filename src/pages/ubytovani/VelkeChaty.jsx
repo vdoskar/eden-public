@@ -10,7 +10,7 @@ function VelkeChatyPage() {
 		{
 			name: "Velké chaty",
 			description:
-				"Ideálním ubytováním pro rodinu je velká chata. Dvě chaty nabízí 4 dvoulůžkové pokoje, tři chaty mají 2 čtyřlůžkové pokoje (celková kapacita 32 míst). Chaty disponují vybavenou kuchyňskou linku, vařičem a ledničkou. Samozřejmostí je i sprcha s teplou vodou a sociální zařízení.",
+				"Ideálním ubytováním pro rodinu je velká chata. Dvě chaty nabízí 4 dvoulůžkové pokoje, tři chaty mají 2 čtyřlůžkové pokoje (celková kapacita 40 míst). Chaty disponují vybavenou kuchyňskou linku, vařičem a ledničkou. Samozřejmostí je i sprcha s teplou vodou a sociální zařízení.",
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/ubytovani/velke-chaty/velke-chaty-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/ubytovani/velke-chaty/velke-chaty-1.webp",

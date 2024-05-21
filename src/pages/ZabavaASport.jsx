@@ -30,7 +30,7 @@ function ZabavaSportPage() {
 		},
 		{
 			name: "Bazén",
-			description: "Bazén s brouzdalištěm, zajištěn dozor plavčíka.",
+			description: "Bazén pro dospělé s hloubkou 1,6m a dětský bazén s hloubkou 0,6m. Vstup do bazénu je zdarma pro ubytované hosty.",
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-1.webp",
@@ -69,8 +69,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Hřiště",
-			description: "Součástí kempu jsou dvě hřiště: nohejbalové s přírodním povrchem a fotbalové s povrchem antukovým. Míč k zapůjčení v recepci.",
+			name: "Hrací hřiště",
+			description: "Součástí kempu je univerzální hřiště s umělým povrchem. Míč k zapůjčení v recepci.",
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/hriste/hriste-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/hriste/hriste-1.webp",
@@ -102,7 +102,7 @@ function ZabavaSportPage() {
 		},
 		{
 			name: "Rybaření",
-			description: "Jinolické rybníky jsou rájem rybářů. Nabízíme možnost zakoupení denní či týdenní povolenky.",
+			description: "Jinolické rybníky jsou rájem rybářů. Povolenky k lovu jsou k dispozici ke koupi v sousedním kempu.",
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/rybareni/rybareni-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/rybareni/rybareni-1.webp",
@@ -120,7 +120,7 @@ function ZabavaSportPage() {
 		<div className="main">
 			<Heading text="Zábava a sport" img={HeadingImage} />
 			<div className="main-content">
-				<p>Rekreační zařízení EDEN nabízí celou řadu sportovišť a rekreačních prostor pro aktivní trávení volného času. Návštěvníkům je k dipozici bazén, pláž s hřištěm pro beach volejbal, minigolf, tenisový kurt, hřiště na fotbal, streetball či nohejbal, ping-pongové stoly i kryté ohniště.</p>
+				<p>Rekreační zařízení EDEN nabízí celou řadu sportovišť a rekreačních prostor pro aktivní trávení volného času. Návštěvníkům je k dispozici jeden bazén pro dospělé (hloubka 1,6m) a jeden dětský bazén (hloubka 0,6m), pláž s hřištěm pro beach volejbal, tenisový kurt, hřiště na fotbal, streetball či nohejbal, ping-pongové stoly i kryté ohniště.</p>
 				<section className="main-section">
 					<h2>Dostupné atrakce</h2>
 					<Gallery data={attractions} />

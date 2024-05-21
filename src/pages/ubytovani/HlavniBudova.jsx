@@ -9,7 +9,7 @@ function HlavniBudovaPage() {
 	const hlavniBudova = [
 		{
 			name: "Hlavní budova",
-			description: "Ubytovat se lze i na hlavní budově, kde jsou pokoje ve složení jedno, dvou, tří a čtyřlůžkové. Kapacita 55 míst. Sprchy a toalety jsou na budově.",
+			description: "Ubytovat se lze i na hlavní budově, kde jsou pokoje ve složení od 1 do 5 lůžek. Celková kapacita 61 míst. Sprchy a toalety jsou na budově.",
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/hlavni-budova/hlavni-budova-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/hlavni-budova/hlavni-budova-1.webp',
