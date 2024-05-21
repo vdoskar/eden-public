@@ -19,7 +19,7 @@ function StravovaniPage() {
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-3.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-4.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-5.webp",
-				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-6.webp",
+				// "http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-6.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-7.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-8.webp"
 			],
@@ -30,7 +30,7 @@ function StravovaniPage() {
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-3-s.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-4-s.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-5-s.webp",
-				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-6-s.webp",
+				// "http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-6-s.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-7-s.webp",
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-8-s.webp"
 			]
