@@ -3,7 +3,6 @@ import { Link, useLocation, NavLink } from "react-router-dom"
 
 const NavItem = ({ item }) => {
     const [isOpen, setIsOpen] = useState(false);
-
     const handleMouseClick = () => {
         setIsOpen(!isOpen);
     };
@@ -131,15 +130,12 @@ function Navigation() {
 
     // ukládá poslední navštívenou stránku a zavírá nav při kliku na linky
     useEffect(() => {
-
         const currentPath = window.location.pathname;
-
         if (prevLocation != currentPath) {
             if (window.innerWidth <= navWidth && isMobileMenuOpen) {
                 toggleMobileMenu();
             }
         }
-
         const prevPath = setPrevLocation(currentPath)
 
     }, [currLocation]);
@@ -150,7 +146,6 @@ function Navigation() {
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
-
         if (!isMobileMenuOpen) {
             document.querySelectorAll(".overflow")[0].style.opacity = "0.5";
             console.log("mobile menu open")

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 
-function UbytkoChild ({ item }) {
-
+function UbytovaniChild ({ item }) {
     return (
         <div className="ubytovani-menu-child">
             <Link to={`/${item.link}`} className="btn-primary">{item.title}</Link>
@@ -10,7 +9,6 @@ function UbytkoChild ({ item }) {
 }
 
 function UbytovaniMenu() {
-
     const ubytovaniList = [
         {
             title: "Hlavní budova",
@@ -45,7 +43,7 @@ function UbytovaniMenu() {
     return (
         <div className="ubytovani-menu">
             {ubytovaniList.map((ubytko, index) => (
-                <UbytkoChild item={ubytko} key={index}/>
+                <UbytovaniChild item={ubytko} key={index}/>
             ))}
         </div>
     )
