@@ -30,7 +30,7 @@ function ZabavaSportPage() {
 		},
 		{
 			name: "Bazén",
-			description: "Bazén pro dospělé s hloubkou 1,6m a dětský bazén s hloubkou 0,6m. Vstup do bazénu je zdarma pro ubytované hosty.",
+			description: "Bazén pro dospělé s hloubkou 1,6m a dětský bazén s hloubkou 0,6m. Vstup do bazénu je za poplatek pro ubytované hosty.",
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-1.webp",
