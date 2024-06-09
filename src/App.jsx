@@ -19,6 +19,9 @@ import ZabavaSportPage from "./pages/ZabavaASport"
 import NotFoundPage from "./pages/NotFound"
 
 function App() {
+    if (localStorage.getItem('lang') == null || localStorage.getItem('lang') == undefined || localStorage.getItem('lang') == '') {
+        localStorage.setItem('lang', 'cz');
+    }
 	return (
 		<div className="App">
 			<header className="header">

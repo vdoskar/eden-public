@@ -1,15 +1,15 @@
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery"
 
-function HlavniBudovaPage() {
+function HlavniBudovaPage({translation}) {
 	useEffect(() => {
-		document.title = 'Hlavní budova | Ubytování | Eden Jinolice';
+		document.title = translation.types.mainBuilding.title + ' | ' + translation.heading + ' | Eden Jinolice';
 	}, []);
 
 	const hlavniBudova = [
 		{
-			name: "Hlavní budova",
-			description: "Ubytovat se lze i na hlavní budově, kde jsou pokoje ve složení od 1 do 5 lůžek. Celková kapacita 61 míst. Sprchy a toalety jsou na budově.",
+			name: translation.types.mainBuilding.title,
+			description: translation.types.mainBuilding.text,
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/hlavni-budova/hlavni-budova-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/hlavni-budova/hlavni-budova-1.webp',

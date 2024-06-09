@@ -39,7 +39,7 @@ function HeadingUvod({ text, videos }) {
                 <video autoPlay loop muted preload="true" style={videoStyles} id="uvod-vid">
                     <source src={videos[0]} type="video/webm"/>
                     <source src={videos[1]} type="video/mp4"/>
-                    Tento prohlížeč nepodporuje přehrávání videa
+                    This browser does not support the video element.
                 </video>
                 <div className='title-holder' style={titleStyles}>
                     <h1>{text}</h1>

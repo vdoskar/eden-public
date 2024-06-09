@@ -1,0 +1,107 @@
+{
+    "cz": {
+        "heading": "Zábava a sport",
+        "introParagraph": "Rekreační zařízení Eden nabízí celou řadu sportovišť a rekreačních prostor pro aktivní trávení volného času. Návštěvníkům je k dispozici jeden bazén pro dospělé (hloubka 1,6m) a jeden dětský bazén (hloubka 0,6m), pláž s hřištěm pro beach volejbal, tenisový kurt, hřiště na fotbal, streetball či nohejbal, ping-pongové stoly i kryté ohniště.",
+        "attractionsHeading": "Dostupné atrakce",
+        "attractions": {
+            "beach": {
+                "title": "Pláž",
+                "text": "Součástí kempu jsou dvě písčité pláže s hřištěm pro plážový volejbal. U pláží jsou umístěny sprchy a dětské prolézačky."
+            },
+            "pool": {
+                "title": "Bazén",
+                "text": "Bazén pro dospělé s hloubkou 1,6m a dětský bazén s hloubkou 0,6m. Vstup do bazénu je za poplatek pro ubytované hosty."
+            },
+            "tableTennis": {
+                "title": "Stolní tenis",
+                "text": "Dva ping-pongové stoly, vybavení lze zapůjčit na recepci."
+            },
+            "volleyball": {
+                "title": "Volejbal",
+                "text": "Hřiště na pláži pro beach volejbal, míč lze zapůjčit v recepci."
+            },
+            "playground": {
+                "title": "Hrací hřiště",
+                "text": "Součástí kempu je univerzální hřiště s umělým povrchem. Míč k zapůjčení v recepci."
+            },
+            "firePit": {
+                "title": "Kryté ohniště",
+                "text": "K dispozici kryté ohniště, které lze využít ke grilování. Dále kryté posezení a lednice."
+            },
+            "fishing": {
+                "title": "Rybaření",
+                "text": "Jinolické rybníky jsou rájem rybářů. Povolenky k lovu jsou k dispozici ke koupi v sousedním kempu."
+            }
+        }
+    },
+    "gb": {
+        "heading": "Entertainment and Sports",
+        "introParagraph": "The Eden recreational complex offers a wide range of sports and recreational areas for active leisure. Visitors have access to an adult pool (depth 1.6m) and a children's pool (depth 0.6m), a beach with a beach volleyball court, a tennis court, a football field, streetball or foot volleyball, ping-pong tables, and a covered fire pit.",
+        "attractionsHeading": "Available Attractions",
+        "attractions": {
+            "beach": {
+                "title": "Beach",
+                "text": "The campsite includes two sandy beaches with a beach volleyball court. There are showers and children's climbing frames at the beaches."
+            },
+            "pool": {
+                "title": "Pool",
+                "text": "An adult pool with a depth of 1.6m and a children's pool with a depth of 0.6m. Entrance to the pool is for a fee for accommodated guests."
+            },
+            "tableTennis": {
+                "title": "Table Tennis",
+                "text": "Two ping-pong tables, equipment can be rented at the reception."
+            },
+            "volleyball": {
+                "title": "Volleyball",
+                "text": "A beach volleyball court, a ball can be rented at the reception."
+            },
+            "playground": {
+                "title": "Playground",
+                "text": "The campsite includes a universal playground with an artificial surface. Ball available for rent at the reception."
+            },
+            "firePit": {
+                "title": "Covered Fire Pit",
+                "text": "A covered fire pit is available, which can be used for grilling. Additionally, there is covered seating and a refrigerator."
+            },
+            "fishing": {
+                "title": "Fishing",
+                "text": "The Jinolice ponds are a paradise for fishermen. Fishing permits are available for purchase at the neighboring campsite."
+            }
+        }
+    },
+    "de": {
+        "heading": "Unterhaltung und Sport",
+        "introParagraph": "Die Freizeiteinrichtung Eden bietet eine Vielzahl von Sport- und Freizeiteinrichtungen für aktive Freizeitgestaltung. Den Besuchern stehen ein Erwachsenenschwimmbad (Tiefe 1,6 m) und ein Kinderbecken (Tiefe 0,6 m), ein Strand mit Beachvolleyballfeld, ein Tennisplatz, ein Fußballfeld, Streetball oder Fußvolleyball, Tischtennisplatten und eine überdachte Feuerstelle zur Verfügung.",
+        "attractionsHeading": "Verfügbare Attraktionen",
+        "attractions": {
+            "beach": {
+                "title": "Strand",
+                "text": "Zum Campingplatz gehören zwei Sandstrände mit einem Beachvolleyballfeld. An den Stränden gibt es Duschen und Klettergerüste für Kinder."
+            },
+            "pool": {
+                "title": "Schwimmbad",
+                "text": "Ein Schwimmbad für Erwachsene mit einer Tiefe von 1,6 m und ein Kinderbecken mit einer Tiefe von 0,6 m. Der Eintritt zum Schwimmbad ist für untergebrachte Gäste kostenpflichtig."
+            },
+            "tableTennis": {
+                "title": "Tischtennis",
+                "text": "Zwei Tischtennisplatten, Ausrüstung kann an der Rezeption ausgeliehen werden."
+            },
+            "volleyball": {
+                "title": "Volleyball",
+                "text": "Ein Beachvolleyballfeld, ein Ball kann an der Rezeption ausgeliehen werden."
+            },
+            "playground": {
+                "title": "Spielplatz",
+                "text": "Zum Campingplatz gehört ein Universalspielplatz mit einem Kunstrasen. Ball zur Ausleihe an der Rezeption."
+            },
+            "firePit": {
+                "title": "Überdachte Feuerstelle",
+                "text": "Eine überdachte Feuerstelle ist verfügbar, die zum Grillen genutzt werden kann. Darüber hinaus gibt es überdachte Sitzgelegenheiten und einen Kühlschrank."
+            },
+            "fishing": {
+                "title": "Angeln",
+                "text": "Die Jinolice-Teiche sind ein Paradies für Angler. Angelscheine sind im benachbarten Campingplatz erhältlich."
+            }
+        }
+    }
+}

@@ -1,17 +1,15 @@
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery"
 
-function MobDomyPage() {
+function MobDomyPage({translation}) {
 	useEffect(() => {
-		document.title = 'Mobilní domy | Ubytování | Eden Jinolice';
+		document.title = translation.types.mobileHome.title + ' | ' + translation.heading + ' | Eden Jinolice';
 	}, []);
 
-	const LogoMarvel = 'https://cdn.edenjinolice.cz/web_assets/logo-marvel.webp';
 	const mobilniDomy = [
 		{
-			name: "Mobilní domy",
-			description:
-				"Reakreační zařízení nabízí možnost ubytování ve 3 mobilních domech s kapacitou 14 míst (2 domy čtyřlůžkové a 1 šestilůžkový). Součástí každého mobilního domu je vybavená kuchyňská linka, vařič a lednička. Samozřejmostí je i samostatná sprcha s teplou vodou a sociální zařízení. Na realizaci mobilních domů se podílela firma marvel.",
+			name: translation.types.mobileHome.title,
+			description: translation.types.mobileHome.text,
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/mobilni-domy/mobilni-domy-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/mobilni-domy/mobilni-domy-1.webp',
@@ -51,8 +49,8 @@ function MobDomyPage() {
 				<p style={{ textAlign: "center" }}>
 					<a href="https://www.marvel-mobilnidomy.cz/?utm_source=Eden%2BJinolice&utm_medium=banner&utm_term=st%C3%A1le&utm_content=v%C3%BDm%C4%9Bnn%C3%BD%2Bbanner&utm_campaign=v%C3%BDm%C4%9Bnn%C3%BD%2Bbanner" target="_blank" rel="noopener noreferrer">
 						<picture>
-							<source srcSet={LogoMarvel} />
-							<img src={LogoMarvel} alt="Logo firmy marvel" />
+							<source srcSet='https://cdn.edenjinolice.cz/web_assets/logo-marvel.webp' />
+							<img src='https://cdn.edenjinolice.cz/web_assets/logo-marvel.webp' alt="marvel logo" />
 						</picture>
 					</a>
 				</p>

@@ -2,6 +2,9 @@ import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import HeadingUvod from "../components/HeadingUvod"
 
+import translations from '../translations/uvod.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
 const UvodMenuItem = ({ index, option }) => {
 	const title = option.title.toUpperCase()
 	return (
@@ -16,7 +19,7 @@ const UvodMenuItem = ({ index, option }) => {
 				</div>
 				<div className="uvod-menu-desc">
 					<div>
-						<span>{option.description}</span>
+						<span>{option.description}...</span>
 					</div>
 				</div>
 			</Link>
@@ -26,26 +29,26 @@ const UvodMenuItem = ({ index, option }) => {
 
 function Uvod() {
 	useEffect(() => {
-		document.title = 'Úvod | Eden Jinolice';
+		document.title = translations[lang].heading + ' | Eden Jinolice';
 	}, []);
 
 	const options = [
 		{
-			title: "Ubytování",
+			title: translations[lang].whereToGoNextSections.accomodation.title,
 			link: "/ubytovani",
-			description: "Podívejte se, jaké ubytovací možnosti náš kemp nabízí...",
+			description: translations[lang].whereToGoNextSections.accomodation.text,
 			img: 'https://cdn.edenjinolice.cz/web_assets/ubytovani.webp'
 		},
 		{
-			title: "Ceník",
+			title: translations[lang].whereToGoNextSections.pricing.title,
 			link: "/cenik",
-			description: "Zhlédněte lákavé ceny našich služeb...",
+			description: translations[lang].whereToGoNextSections.pricing.text,
 			img: 'https://cdn.edenjinolice.cz/web_assets/cenik.webp'
 		},
 		{
-			title: "Tipy na výlety",
+			title: translations[lang].whereToGoNextSections.tipsForTrips.title,
 			link: "/tipy-na-vylet",
-			description: "Kam se vydat na protáhnutí nohou od lenošení v kempu...",
+			description: translations[lang].whereToGoNextSections.tipsForTrips.text,
 			img: 'https://cdn.edenjinolice.cz/web_assets/tipy-na-vylety.webp'
 		}
 	]
@@ -53,35 +56,32 @@ function Uvod() {
 	return (
 		<div className="main">
 			<HeadingUvod
-				text="Rekreační zařízení Eden Jinolice"
+				text={translations[lang].heading}
 				videos={['https://cdn.edenjinolice.cz/web_assets/uvod_1080.mp4', 'https://cdn.edenjinolice.cz/web_assets/uvod_1080.webm']}
 			/>
 			<div className="main-content">
 				<div>
-					<p>Rekreační zařízení EDEN se nachází na břehu Jinolických rybníků, přímo v srdci Prachovských skal v chráněné krajinné oblasti Český ráj. Příjezdová silnice vede z hlavní trasy Jičín - Turnov, přes obec Jinolice. </p>
+					<p>{translations[lang].introParagraph}</p>
 				</div>
 				<div>
 					<br /><br />
-					<p className="important" style={{ fontSize: "clamp(1rem,1.75rem,2rem)" }}>Provozní období kempu je od 1.4. do 30.9.</p>
+					<p className="important" style={{ fontSize: "clamp(1rem,1.75rem,2rem)" }}>{translations[lang].complexTimespan}</p>
 				</div>
 				<section className="main-section">
-					<h2>Co nabízíme?</h2>
+					<h2>{translations[lang].paragraphsHeading}</h2>
 					<div className="section-content">
-						<p>
-							Klidný a upravený areál Rekreačního zařízení EDEN nabízí strávení příjemné dovolené v krásné přírodě v okolí Prachovských skal. Návštěvníci mohou využít možnosti ubytování ve velkých nově opravených chatách, okálech, dřevěných chatkách, mobilních domech či hlavní budově, k dispozici je také autokemp pro ubytování v karavanech či stanech. Kemp je oplocen a vybaven elektrickými přípojkami pro karavany.
-						</p>
-						<p>
-							Kemp se rozkládá u Jinolických rybníků, které lze využít ke koupání i rybaření. Součástí kempu je písčitá pláž, bazén (za poplatek), tenisový kurt, kryté ohniště, ping-pong, dětská a sportovní hřiště (nohejbal, fotbal, streetball). Pro ubytované je zdarma k dispozici <span className="important">Wi-Fi internet</span>. Návštěvníci mohou využít nabídky stravování. Přímo v areálu se nabízí obchod s potravinami a smíšeným zbožím.
-						</p>
-						<p>
-							Náš kemp nabízí ideální možnost ubytování v rodinné atmosféře pro rodiny s dětmi, skupiny přátel a nadšenců, sportovní oddíly, školní zájezdy a školy v přírodě, houbaře, rybáře, cyklisty a další. Prostory kempu lze ale využít také pro pořádání teambuildingových a školících akcí, mimo hlavní sezónu pro svatební a jiné oslavy.
-						</p>
+						{
+                            translations[lang].paragraphs.map((paragraph, index) => {
+                                return (
+                                    <p key={index}>{paragraph}</p>
+                                );
+                            })
+                        }
 					</div>
 				</section>
-
 			</div>
 			<section className="main-section">
-				<h2>Kam dále?</h2>
+				<h2>{translations[lang].whereToGoNextHeading}</h2>
 				<div className="uvod-menu">
 					{
 						options.map((option, index) => {

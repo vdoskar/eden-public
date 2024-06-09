@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import translations from '../translations/components.json';
+const lang = localStorage.getItem('lang') || 'cz';
 
 function ScrollButton() {
     const [visible, setVisible] = useState(false);
@@ -46,7 +48,7 @@ function ScrollButton() {
     return (
         <div>
             <button onClick={scrollToTop} style={styles} className='btn-primary' id="back-to-top-button">
-                Zpět nahoru
+                {translations[lang].backToTop}
             </button>
         </div>
     );

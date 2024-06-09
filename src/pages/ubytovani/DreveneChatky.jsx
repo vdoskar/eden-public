@@ -1,15 +1,15 @@
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery"
 
-function DrChatkyPage() {
+function DrChatkyPage({translation}) {
 	useEffect(() => {
-		document.title = 'Dřevěné chatky | Ubytování | Eden Jinolice';
+		document.title = translation.types.woodenCottage.title + ' | ' + translation.heading + ' | Eden Jinolice';
 	}, []);
 
 	const dreveneChatky = [
 		{
-			name: "Dřevěné chatky",
-			description: "Rekreační zařízení nabízí ubytování ve 3 a 4 lůžkových chatkách s kapacitou celkem 75 míst. Sprchy s teplou vodou a toalety jsou společné, lednička na chatkách je samozřejmostí.",
+			name: translation.types.woodenCottage.title,
+			description: translation.types.woodenCottage.text,
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/drevene-chatky/drevene-chatky-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/drevene-chatky/drevene-chatky-1.webp',

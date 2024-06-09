@@ -1,17 +1,20 @@
 import { useEffect } from "react"
 import Heading from "../components/Heading"
 
+import translations from '../translations/rezervace.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
+
 function RezervacePage() {
 	useEffect(() => {
-		document.title = 'Rezervace | Eden Jinolice';
+		document.title = translations[lang].heading + ' | Eden Jinolice';
 	}, []);
 
-	const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/rezervacni-formular.webp';
 	return (
 		<div className="main">
-			<Heading text="Rezervace" img={HeadingImage} />
+			<Heading text={translations[lang].heading} img='https://cdn.edenjinolice.cz/web_assets/rezervacni-formular.webp' />
 			<div className="main-content">
-				<p>Veškeré rezervace zařizujeme telefonicky nebo skrze e-mail.</p>
+				<p>{translations[lang].text}</p>
 			</div>
 		</div>
 	)

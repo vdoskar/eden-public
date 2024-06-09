@@ -180,7 +180,7 @@ header {
     display: none;
 }
 
-@media only screen and (min-width: 812px) {
+@media only screen and (min-width: 1148px) {
     .navbar.mobile-menu-open .navbar__menu {
         z-index: 51;
         flex-direction: row !important;
@@ -231,10 +231,10 @@ header {
     }
 }
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 1148px) {
 
     .logo {
-        max-width: 150px;
+        max-width: 175px;
         position: relative;
     }
 
@@ -286,7 +286,7 @@ header {
 @media only screen and (max-width: 562px) {
 
     .logo {
-        max-width: 125px;
+        /* max-width: 125px; */
         position: relative;
     }
 
@@ -335,6 +335,7 @@ header {
 @media only screen and (max-width: 768px) {
     .title-holder h1 {
         font-size: 2rem;
+        word-break: break-word;
     }
 }
 

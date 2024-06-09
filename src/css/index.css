@@ -273,3 +273,29 @@ table tbody tr th {
 #back-to-top-button:hover {
     background-color: var(--c-darkOrange) !important;
 }
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.langs {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-button {
+    width: calc(40px / 1.5);
+    height: calc(30px / 1.5);
+    border: none;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.lang-button:hover {
+    transform: scale(1.1);
+}

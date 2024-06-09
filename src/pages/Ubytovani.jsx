@@ -13,12 +13,15 @@ import OkalyPage from './ubytovani/Okaly'
 import StanovaniPage from './ubytovani/Stanovani'
 import VelkeChatyPage from './ubytovani/VelkeChaty'
 
+import translations from '../translations/ubytovani.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
 function UbytovaniPage() {
 	const [activeUbytovani, setActiveUbytovani] = useState("");
 	const location = useLocation();
 
 	useEffect(() => {
-		document.title = 'Ubytování | Eden Jinolice';
+		document.title = translations[lang].heading + ' | Eden Jinolice';
 	}, []);
 
 	useEffect(() => {
@@ -29,40 +32,38 @@ function UbytovaniPage() {
 	}, [location])
 
 	const getCurrentUbytovani = (loc) => {
-		document.getElementById("scrolled_to").scrollIntoView({ behavior: 'smooth', block: 'start' });
+		document.getElementById("scrolled_to").scrollIntoView({ 
+            behavior: 'smooth', 
+        });
 
 		switch (loc) {
-			case "hlavni-budova": return setActiveUbytovani(<HlavniBudovaPage />)
-			case "drevene-chatky": return setActiveUbytovani(<DrChatkyPage />)
-			case "karavany": return setActiveUbytovani(<KaravanyPage />)
-			case "mobilni-domy": return setActiveUbytovani(<MobDomyPage />)
-			case "okaly": return setActiveUbytovani(<OkalyPage />)
-			case "stanovani": return setActiveUbytovani(<StanovaniPage />)
-			case "velke-chaty": return setActiveUbytovani(<VelkeChatyPage />)
+			case "hlavni-budova": return setActiveUbytovani(<HlavniBudovaPage translation={translations[lang]} />)
+			case "drevene-chatky": return setActiveUbytovani(<DrChatkyPage translation={translations[lang]} />)
+			case "karavany": return setActiveUbytovani(<KaravanyPage translation={translations[lang]} />)
+			case "mobilni-domy": return setActiveUbytovani(<MobDomyPage translation={translations[lang]} />)
+			case "okaly": return setActiveUbytovani(<OkalyPage translation={translations[lang]} />)
+			case "stanovani": return setActiveUbytovani(<StanovaniPage translation={translations[lang]} />)
+			case "velke-chaty": return setActiveUbytovani(<VelkeChatyPage translation={translations[lang]} />)
 		}
 	}
 
-	const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/ubytovani.webp';
-	const MapaFull = 'https://cdn.edenjinolice.cz/web_assets/ubytovani/main/mapa_camp.webp';
-	const MapaSmall = 'https://cdn.edenjinolice.cz/web_assets/ubytovani/main/mapa_camp_small.webp';
-
 	return (
 		<div className="main">
-			<Heading text="Ubytování" img={HeadingImage} />
+			<Heading text={translations[lang].heading} img={'https://cdn.edenjinolice.cz/web_assets/ubytovani.webp'} />
 			<div className="main-content" style={{ position: "relative" }}>
-				<section className="main-section">
-					<h2>Naše zařízení nabízí ubytování hned v několika variantách</h2>
+            <div id="scrolled_to"></div>
+            <section className="main-section">
+					<h2>{translations[lang].secondaryTitle}</h2>
 				</section>
 				<UbytovaniMenu />
-				<div id="scrolled_to"></div>
 
 				{activeUbytovani}
 
 				<section className="main-section">
 					<div className="uvodni-ubytovani-gallery">
 						<div className="uvodni-ubytovani-child">
-							<a href={MapaFull} data-lightbox="ubytovani-uvod">
-								<img src={MapaSmall} alt="Orientační mapa rekreačního zařízení Eden Jinolice" loading="lazy" />
+							<a href={'https://cdn.edenjinolice.cz/web_assets/ubytovani/main/mapa_camp.webp'} data-lightbox="ubytovani-uvod">
+								<img src={'https://cdn.edenjinolice.cz/web_assets/ubytovani/main/mapa_camp_small.webp'} alt={translations[lang].mapText} loading="lazy" />
 							</a>
 						</div>
 					</div>

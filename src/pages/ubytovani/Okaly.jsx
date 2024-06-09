@@ -1,16 +1,15 @@
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery"
 
-function OkalyPage() {
+function OkalyPage({translation}) {
 	useEffect(() => {
-		document.title = 'Okály | Ubytování | Eden Jinolice';
+		document.title = translation.types.okal.title + ' | ' + translation.heading + ' | Eden Jinolice';
 	}, []);
 
 	const okaly = [
 		{
-			name: "Okály",
-			description:
-				"Další možností ubytovávání jsou čtyři okály. Na okálech s číslem 1 a 2 naleznete 7 pokojů po 2-6 lůžkách. Kapacita jednoho okálu je 27 lůžek. Na okálech č. 3 a 4 naleznete čtyřlůžkové pokoje s vlastním soc. zařízením na pokoji, lednicí a konvicí na kávu. Kapacita jednoho okálu je 16 osob.",
+			name: translation.types.okal.title,
+			description: translation.types.okal.text,
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/okaly/okaly-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/okaly/okaly-1.webp',

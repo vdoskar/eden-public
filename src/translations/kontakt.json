@@ -1,0 +1,62 @@
+{
+    "cz": {
+        "heading": "Kontakt",
+        "contactInfoHeading": "Kontaktní údaje",
+        "address": "Adresa kempu",
+        "connection": "Spojení",
+        "openingHours": "Otevírací doba",
+        "monthSpan": "Červenec - Srpen",
+        "recreationalComplex": "Rekreační zařízení",
+        "restaurant": "Restaurace",
+        "whereToFindUs": "Kde nás najdete na mapě",
+        "weekdays": {
+            "monday": "Pondělí",
+            "tuesday": "Úterý",
+            "wednesday": "Středa",
+            "thursday": "Čtvrtek",
+            "friday": "Pátek",
+            "saturday": "Sobota",
+            "sunday": "Neděle"
+        }
+    },
+    "gb": {
+        "heading": "Contact",
+        "contactInfoHeading": "Contact Information",
+        "address": "Camp Address",
+        "connection": "Connection",
+        "openingHours": "Opening Hours",
+        "monthSpan": "July - August",
+        "recreationalComplex": "Recreational Complex",
+        "restaurant": "Restaurant",
+        "whereToFindUs": "Where to Find Us on the Map",
+        "weekdays": {
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        }
+    },
+    "de": {
+        "heading": "Kontakt",
+        "contactInfoHeading": "Kontaktinformationen",
+        "address": "Campingplatz Adresse",
+        "connection": "Verbindung",
+        "openingHours": "Öffnungszeiten",
+        "monthSpan": "Juli - August",
+        "recreationalComplex": "Freizeiteinrichtung",
+        "restaurant": "Restaurant",
+        "whereToFindUs": "Wo Sie uns auf der Karte finden",
+        "weekdays": {
+            "monday": "Montag",
+            "tuesday": "Dienstag",
+            "wednesday": "Mittwoch",
+            "thursday": "Donnerstag",
+            "friday": "Freitag",
+            "saturday": "Samstag",
+            "sunday": "Sonntag"
+        }
+    }
+}

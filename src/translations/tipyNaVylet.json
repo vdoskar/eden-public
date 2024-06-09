@@ -1,0 +1,302 @@
+{
+    "cz": {
+        "heading": "Tipy na výlet",
+        "distance": "Vzdálenost",
+        "duration": "Délka trasy",
+        "difficulty": "Obtížnost",
+        "website": "Webové stránky",
+        "map": "Ukázat na mapě",
+        "trace": "Ukázat trasu",
+        "castlesLabel": "Zámky",
+        "ruinsLabel": "Hrady a zříceniny",
+        "recreationLabel": "Rekreace a koupání",
+        "cyclingLabel": "Cykloturistika",
+        "rockCitiesLabel": "Skalní města",
+        "cyclingDescription": "Cykloturistika patří k neojblíbenějším aktivitám návštěvníků Českého ráje, nabízíme několik tipů střední náročnosti na výlety v okolí Jinolic:",
+        "castles": {
+            "valdstejn": {
+                "name": "Valdštejnský zámek v Jičíně",
+                "description": "Valdštejnský nebo také jičínský zámek jistě neminete, tento klasicistně upravený objekt  je dominantní budovou jižní strany náměstí. Původně renesanční křídlo zámku bylo postaveno na počátku 17. století ještě v době, kdy Jičín patřil rodu Smiřických."
+            },
+            "humprecht": {
+                "name": "Zámek Humprecht",
+                "description": "Lovecký zámek Humprecht, který stojí nad Sobotkou, je dominantou kraje a jedním ze symbolů Českého ráje. Byl postaven Italem Carlo Luragem v letech 1666-1668 pro Humprechta Jana Černína z Chudenic."
+            },
+            "hrubaSkala": {
+                "name": "Zámek Hrubá Skála",
+                "description": "Zámek Hrubá Skála patří mezi hlavní dominanty Českého ráje. Zámek se pne na skupině skalních věží, nacházejících se šest kilometrů na jihovýchod od města Turnov. Skaliska, sahající až do výšky šedesáti metrů, najdete nad údolím říčky Libuňky, ležící v krajině mezi hradem Trosky a hradem Valdštejn."
+            },
+            "stareHrady": {
+                "name": "Zámek Staré hrady",
+                "description": "Je Vaším nejlepším tipem na rodinné výlety pro děti i dospělé a školní výlety s programem pro mateřské a základní školy v České republice. Hledáte, kam s dětmi na výlet? V našich pohádkách najdete ve čtyřech pohádkových okruzích přes 450 pohádkových bytostí."
+            },
+            "sychrov": {
+                "name": "Zámek Sychrov",
+                "description": "Novogotický zámek Sychrov, který sloužil jako rezidence původem francouzského rodu Rohanů, znáte z pohádky Zlatovláska či Nesmrtelná teta. Zámecké pokoje jsou zařízeny původním nábytkem, obrazy a dalšími doplňky; většina místností také vyniká bohatou řezbářskou výzdobou."
+            }
+        },
+        "ruins": {
+            "trosky": {
+                "name": "Zřícenina hradu Trosky",
+                "description": "Trosky jsou zřícenina hradu na vrcholu stejnojmenného vrchu v katastrálním území obce Troskovice v okrese Semily v Libereckém kraji. Nachází se na území Chráněné krajinné oblasti Český ráj a zároveň také Geoparku Český ráj. Hrad je ve vlastnictví státu a je přístupný veřejnosti."
+            },
+            "kost": {
+                "name": "Hrad Kost",
+                "description": "Vykročte na hradby majestátní pevnosti obklopenou třemi údolími. Obdivujte hradní paláce, kapli sv. Anny, středověkou mučírnu nebo černou kuchyni. Kromě kompletní prohlídky hrad nabízí také zkrácenou – bezbariérovou."
+            },
+            "valdstejn": {
+                "name": "Zřícenina hradu Valdštejn",
+                "description": "Valdštejn je zřícenina hradu v okrese Semily blízko Turnova, v oblasti Českého ráje. Rodový hrad pánů z Valdštejna pochází z druhé poloviny 13. století. Je jedním z nejstarších hradů v oblasti. Nyní je Valdštejn v držení města Turnova."
+            }
+        },
+        "recreation": {
+            "aquaJicin": {
+                "name": "Aqua Centrum Jičín",
+                "description": "Plavecké a oddechové centrum, bazény, sauny, atrakce, masáže, občerstvení… Nabízeny jsou i vodní pohybové aktivity nebo kurzy plavání."
+            },
+            "knizePond": {
+                "name": "Koupaliště a rybník Kníže",
+                "description": "Koupaliště nabízí celou škálu doplňkových služeb a vodních atrakcí, je zde možnost pronajmout si víceúčelové hřiště, plážový kurt, hřiště na pétanque, lodičku. V ceně (proti záloze) jsou k dispozici lehátka, slunečníky, vybavení jako míče či koule na pétanque a úložné schránky."
+            },
+            "jinolicePonds": {
+                "name": "Jinolické rybníky",
+                "description": "Jinolické rybníky je soustava tří rybníků ležící u obce Jinolice v CHKO Český ráj. Jsou sídlem našeho rekračního zařízení Eden a dalších turistických atrakcí."
+            }
+        },
+        "cycling": {
+            "podtroseckeValley": {
+                "name": "Výlet Podtroseckým údolím",
+                "description": "Výlet začíná i končí v obci Hrubá Skála. Trasa je nenáročná, vhodná i pro rodiny z dětmi, většina trasy vede po zpevněných cestách, bez velkého provozu aut. Trasa není doporučována pro silniční kola.",
+                "difficulty": "středně náročná"
+            },
+            "maloskalsko": {
+                "name": "Okruh Maloskalskem",
+                "description": "Nenáročný okruh po krásách Maloskalska.",
+                "difficulty": "středně náročná"
+            },
+            "kozakov": {
+                "name": "Okruh kolem Kozákova",
+                "description": "Okruh vede ze Semil kolem Kozákova a přes Lomnici nad Popelkou se vrací zase do Semil. Po cestě projedete skrze několik skalních měst a malebných městeček v jejich okolí.",
+                "difficulty": "středně náročná"
+            }
+        },
+        "rockCities": {
+            "prachovRocks": {
+                "name": "Prachovské skály",
+                "description": "Nejznámější skalní město, které patří k nejdříve navštěvovanou oblast Českého ráje v jeho historii. Velký okruh vás seznámí s velkým množstvím zajímavých míst Prachovských skal a je nejatraktivnější a nejzajímavější cestou skalními masívy."
+            },
+            "hruboskalsko": {
+                "name": "Hruboskalské skalní město",
+                "description": "Mezi hradem Valdštejn a zámkem Hrubá Skála nedaleko Turnova v Českém ráji se nachází oblast zvaná jako Hruboskalské skalní město. Pověstmi opředené skalní město nabízí nevšední zážitky pro horolezce i laiky na více než 400 věžích, jejichž nejvyšší dosahuje až do výše 50 metrů."
+            },
+            "klokocskeRocks": {
+                "name": "Klokočské skály",
+                "description": "Chráněné území se skládá se ze dvou skalních bloků a mnoha údolí či roklin. V jihovýchodní části skal se dochovala zřícenina hradu Rotštejn. Různé skalní rokliny obsahují pseudokrasové jeskyně, které obsahují mimo zajímavé fauny také archeologické nálezy z doby bronzové."
+            },
+            "besediceRocks": {
+                "name": "Besedické skály",
+                "description": "Romantický labyrint pískovcových skal leží nad levým břehem Jizery poblíž obce Besedice v Českém ráji. Skalami vede okružní cesta, která nás seznámí s nejvýznamnějšími místy této oblasti. V seskupení skal U Kalicha uprostřed pěti skalních roklí se skrývá oltář s vytesaným kalichem a letopočtem 1634."
+            }
+        }
+    },
+    "gb": {
+        "heading": "Tips for Trips",
+        "distance": "Distance",
+        "duration": "Route Duration",
+        "difficulty": "Difficulty",
+        "website": "Website",
+        "map": "Show on Map",
+        "trace": "Show Route",
+        "castlesLabel": "Castles",
+        "ruinsLabel": "Ruins",
+        "recreationLabel": "Recreation and Swimming",
+        "cyclingLabel": "Cycling",
+        "rockCitiesLabel": "Rock Cities",
+        "cyclingDescription": "Cycling is one of the most popular activities of visitors to the Bohemian Paradise, we offer several tips of medium difficulty for trips around Jinolice:",
+        "castles": {
+            "valdstejn": {
+                "name": "Valdštejn Castle in Jičín",
+                "description": "You will not miss the Valdštejn or Jičín Castle, this classically adapted building is the dominant structure on the southern side of the square. The originally Renaissance wing of the castle was built at the beginning of the 17th century, still during the time when Jičín belonged to the Smiřický family."
+            },
+            "humprecht": {
+                "name": "Humprecht Castle",
+                "description": "The hunting castle Humprecht, which stands above Sobotka, is a landmark of the region and one of the symbols of the Bohemian Paradise. It was built by the Italian Carlo Lurago in the years 1666-1668 for Humprecht Jan Černín of Chudenice."
+            },
+            "hrubaSkala": {
+                "name": "Hrubá Skála Castle",
+                "description": "Hrubá Skála Castle is one of the main landmarks of the Bohemian Paradise. The castle is perched on a group of rock towers, located six kilometers southeast of the town of Turnov. The rock formations, reaching up to sixty meters high, can be found above the valley of the Libuňka River, situated in the landscape between Trosky Castle and Valdštejn Castle."
+            },
+            "stareHrady": {
+                "name": "Staré Hrady Castle",
+                "description": "It is your best tip for family trips for children and adults and school trips with programs for kindergartens and elementary schools in the Czech Republic. Looking for a place to go with kids? In our fairy tales, you will find over 450 fairy-tale creatures in four fairy-tale circuits."
+            },
+            "sychrov": {
+                "name": "Sychrov Castle",
+                "description": "The neo-Gothic Sychrov Castle, which served as the residence of the originally French family Rohan, is known from the fairy tales Zlatovláska or Immortal Aunt. The castle rooms are furnished with original furniture, paintings, and other accessories; most rooms also feature rich woodcarving decorations."
+            }
+        },
+        "ruins": {
+            "trosky": {
+                "name": "Trosky Castle Ruin",
+                "description": "Trosky is a ruin of a castle on top of the hill of the same name in the cadastral area of the village Troskovice in the district of Semily in the Liberec Region. It is located within the Protected Landscape Area of the Bohemian Paradise and also the Bohemian Paradise Geopark. The castle is state-owned and open to the public."
+            },
+            "kost": {
+                "name": "Kost Castle",
+                "description": "Step onto the ramparts of the majestic fortress surrounded by three valleys. Admire the castle palaces, the chapel of St. Anne, the medieval torture chamber, or the black kitchen. In addition to the complete tour, the castle also offers a shortened - barrier-free - tour."
+            },
+            "valdstejn": {
+                "name": "Valdštejn Castle Ruin",
+                "description": "Valdštejn is a ruin of a castle in the district of Semily near Turnov, in the area of the Bohemian Paradise. The ancestral castle of the Lords of Valdštejn dates back to the second half of the 13th century. It is one of the oldest castles in the area. Today, Valdštejn is owned by the town of Turnov."
+            }
+        },
+        "recreation": {
+            "aquaJicin": {
+                "name": "Aqua Centrum Jičín",
+                "description": "Swimming and relaxation center, pools, saunas, attractions, massages, refreshments... Water activities or swimming courses are also offered."
+            },
+            "knizePond": {
+                "name": "Kníže Swimming Pool and Pond",
+                "description": "The swimming pool offers a wide range of additional services and water attractions, there is also the possibility to rent a multifunctional playground, a beach court, a pétanque field, and a boat. In the price (against a deposit), sun loungers, umbrellas, equipment such as balls or pétanque balls, and storage boxes are available."
+            },
+            "jinolicePonds": {
+                "name": "Jinolice Ponds",
+                "description": "The Jinolice Ponds are a system of three ponds located near the village of Jinolice in the Bohemian Paradise Protected Landscape Area. They are home to our recreational complex Eden and other tourist attractions."
+            }
+        },
+        "cycling": {
+            "podtroseckeValley": {
+                "name": "Trip through Podtrosecké Valley",
+                "description": "The trip starts and ends in the village of Hrubá Skála. The route is easy, suitable even for families with children, most of the route leads along paved roads, without much car traffic. The route is not recommended for road bikes.",
+                "difficulty": "medium"
+            },
+            "maloskalsko": {
+                "name": "Circuit through Maloskalsko",
+                "description": "An easy circuit through the beauties of Maloskalsko.",
+                "difficulty": "medium"
+            },
+            "kozakov": {
+                "name": "Circuit around Kozákov",
+                "description": "The circuit leads from Semily around Kozákov and through Lomnice nad Popelkou back to Semily. Along the way, you will pass through several rock towns and picturesque towns in their surroundings.",
+                "difficulty": "medium"
+            }
+        },
+        "rockCities": {
+            "prachovRocks": {
+                "name": "Prachov Rocks",
+                "description": "The most famous rock town, which is one of the earliest visited areas of the Bohemian Paradise in its history. The grand tour will introduce you to a large number of interesting places in the Prachov Rocks and is the most attractive and interesting route through the rock massifs."
+            },
+            "hruboskalsko": {
+                "name": "Hruboskalsko Rock Town",
+                "description": "Between Valdštejn Castle and Hrubá Skála Castle near Turnov in the Bohemian Paradise lies an area known as the Hruboskalsko Rock Town. The legendary rock town offers extraordinary experiences for climbers and laymen on more than 400 towers, the highest of which reach up to 50 meters."
+            },
+            "klokocskeRocks": {
+                "name": "Klokočské Rocks",
+                "description": "The protected area consists of two rock blocks and many valleys or ravines. In the southeastern part of the rocks, the ruin of Rotštejn Castle has been preserved. Various rock ravines contain pseudokarst caves, which contain interesting fauna as well as archaeological finds from the Bronze Age."
+            },
+            "besediceRocks": {
+                "name": "Besedické Rocks",
+                "description": "A romantic labyrinth of sandstone rocks lies above the left bank of the Jizera River near the village of Besedice in the Bohemian Paradise. A circular route leads through the rocks, introducing us to the most significant places in this area. In the cluster of rocks at Kalich in the middle of five rock ravines, there is an altar with a carved chalice and the date 1634."
+            }
+        }
+    },
+    "de": {
+        "heading": "Tipps für Ausflüge",
+        "distance": "Entfernung",
+        "duration": "Routenlänge",
+        "difficulty": "Schwierigkeit",
+        "website": "Webseite",
+        "map": "Auf Karte anzeigen",
+        "trace": "Route anzeigen",
+        "castlesLabel": "Schlösser",
+        "ruinsLabel": "Burgs und burgruinen",
+        "recreationLabel": "Erholung und Schwimmen",
+        "cyclingLabel": "Radfahren",
+        "rockCitiesLabel": "Felsenstädte",
+        "cyclingDescription": "Radfahren gehört zu den beliebtesten Aktivitäten der Besucher des Böhmischen Paradieses, wir bieten mehrere Tipps mittlerer Schwierigkeit für Ausflüge rund um Jinolice:",
+        "castles": {
+            "valdstejn": {
+                "name": "Valdštejn Schloss in Jičín",
+                "description": "Das Valdštejn- oder Jičín-Schloss werden Sie nicht verpassen, dieses klassizistisch angepasste Gebäude ist das dominante Bauwerk an der Südseite des Platzes. Der ursprünglich Renaissance-Flügel des Schlosses wurde zu Beginn des 17. Jahrhunderts gebaut, noch in der Zeit, als Jičín zur Familie Smiřický gehörte."
+            },
+            "humprecht": {
+                "name": "Schloss Humprecht",
+                "description": "Das Jagdschloss Humprecht, das über Sobotka steht, ist ein Wahrzeichen der Region und eines der Symbole des Böhmischen Paradieses. Es wurde von dem Italiener Carlo Lurago in den Jahren 1666-1668 für Humprecht Jan Černín von Chudenice gebaut."
+            },
+            "hrubaSkala": {
+                "name": "Schloss Hrubá Skála",
+                "description": "Das Schloss Hrubá Skála ist eines der Hauptwahrzeichen des Böhmischen Paradieses. Das Schloss thront auf einer Gruppe von Felstürmen, die sich sechs Kilometer südöstlich der Stadt Turnov befinden. Die Felsformationen, die bis zu sechzig Meter hoch sind, befinden sich über dem Tal des Flusses Libuňka, in der Landschaft zwischen den Burgen Trosky und Valdštejn."
+            },
+            "stareHrady": {
+                "name": "Schloss Staré Hrady",
+                "description": "Es ist Ihr bester Tipp für Familienausflüge für Kinder und Erwachsene sowie für Schulausflüge mit Programmen für Kindergärten und Grundschulen in der Tschechischen Republik. Suchen Sie einen Ort, um mit Kindern auszugehen? In unseren Märchen finden Sie über 450 Märchenfiguren in vier Märchenkreisen."
+            },
+            "sychrov": {
+                "name": "Schloss Sychrov",
+                "description": "Das neugotische Schloss Sychrov, das als Residenz der ursprünglich französischen Familie Rohan diente, ist bekannt aus den Märchen Zlatovláska oder Die unsterbliche Tante. Die Schlossräume sind mit originalen Möbeln, Gemälden und anderen Accessoires eingerichtet; die meisten Räume zeichnen sich auch durch reiche Holzschnitzereien aus."
+            }
+        },
+        "ruins": {
+            "trosky": {
+                "name": "Burgruine Trosky",
+                "description": "Trosky ist eine Burgruine auf dem Gipfel des gleichnamigen Hügels im Katastralgebiet der Gemeinde Troskovice im Bezirk Semily in der Region Liberec. Sie befindet sich im Gebiet des geschützten Landschaftsgebiets Böhmisches Paradies und auch im Geopark Böhmisches Paradies. Die Burg ist im Staatsbesitz und für die Öffentlichkeit zugänglich."
+            },
+            "kost": {
+                "name": "Burg Kost",
+                "description": "Treten Sie auf die Wehrmauern der majestätischen Festung, die von drei Tälern umgeben ist. Bewundern Sie die Burgpaläste, die St.-Anna-Kapelle, die mittelalterliche Folterkammer oder die schwarze Küche. Neben der vollständigen Besichtigung bietet die Burg auch eine verkürzte – barrierefreie – Tour an."
+            },
+            "valdstejn": {
+                "name": "Burgruine Valdštejn",
+                "description": "Valdštejn ist eine Burgruine im Bezirk Semily in der Nähe von Turnov, im Gebiet des Böhmischen Paradieses. Die Stammburg der Herren von Valdštejn stammt aus der zweiten Hälfte des 13. Jahrhunderts. Es ist eine der ältesten Burgen in der Gegend. Heute ist Valdštejn im Besitz der Stadt Turnov."
+            }
+        },
+        "recreation": {
+            "aquaJicin": {
+                "name": "Aqua Centrum Jičín",
+                "description": "Schwimm- und Erholungszentrum, Schwimmbäder, Saunen, Attraktionen, Massagen, Erfrischungen... Es werden auch Wasseraktivitäten oder Schwimmkurse angeboten."
+            },
+            "knizePond": {
+                "name": "Schwimmbad und Teich Kníže",
+                "description": "Das Schwimmbad bietet eine breite Palette von Zusatzleistungen und Wasserattraktionen, es gibt auch die Möglichkeit, einen Multifunktionsplatz, einen Strandplatz, ein Pétanque-Feld und ein Boot zu mieten. Im Preis (gegen Kaution) sind Sonnenliegen, Sonnenschirme, Ausrüstungen wie Bälle oder Pétanque-Kugeln und Schließfächer enthalten."
+            },
+            "jinolicePonds": {
+                "name": "Jinolice Teiche",
+                "description": "Die Jinolice-Teiche sind ein System von drei Teichen, die in der Nähe des Dorfes Jinolice im geschützten Landschaftsgebiet Böhmisches Paradies liegen. Sie sind die Heimat unserer Freizeiteinrichtung Eden und weiterer touristischer Attraktionen."
+            }
+        },
+        "cycling": {
+            "podtroseckeValley": {
+                "name": "Ausflug durch das Podtrosecké Tal",
+                "description": "Die Tour beginnt und endet im Dorf Hrubá Skála. Die Strecke ist einfach, auch für Familien mit Kindern geeignet, der Großteil der Strecke führt über befestigte Wege, ohne viel Autoverkehr. Die Strecke wird nicht für Rennräder empfohlen.",
+                "difficulty": "mittel"
+            },
+            "maloskalsko": {
+                "name": "Rundtour durch Maloskalsko",
+                "description": "Eine einfache Rundtour durch die Schönheiten von Maloskalsko.",
+                "difficulty": "mittel"
+            },
+            "kozakov": {
+                "name": "Rundtour um Kozákov",
+                "description": "Die Rundtour führt von Semily um Kozákov und über Lomnice nad Popelkou zurück nach Semily. Auf dem Weg passieren Sie mehrere Felsenstädte und malerische Städtchen in deren Umgebung.",
+                "difficulty": "mittel"
+            }
+        },
+        "rockCities": {
+            "prachovRocks": {
+                "name": "Prachov-Felsen",
+                "description": "Die bekannteste Felsenstadt, die in ihrer Geschichte zu den am frühesten besuchten Gebieten des Böhmischen Paradieses gehört. Der große Rundweg macht Sie mit einer Vielzahl von interessanten Orten in den Prachov-Felsen bekannt und ist der attraktivste und interessanteste Weg durch die Felsmassive."
+            },
+            "hruboskalsko": {
+                "name": "Hruboskalsko Felsenstadt",
+                "description": "Zwischen der Burg Valdštejn und dem Schloss Hrubá Skála in der Nähe von Turnov im Böhmischen Paradies liegt ein Gebiet, das als Hruboskalsko Felsenstadt bekannt ist. Die sagenumwobene Felsenstadt bietet außergewöhnliche Erlebnisse für Kletterer und Laien auf mehr als 400 Türmen, die höchsten davon erreichen bis zu 50 Meter."
+            },
+            "klokocskeRocks": {
+                "name": "Klokočské Felsen",
+                "description": "Das Schutzgebiet besteht aus zwei Felsblöcken und vielen Tälern oder Schluchten. Im südöstlichen Teil der Felsen ist die Ruine der Burg Rotštejn erhalten. Verschiedene Felsenschluchten enthalten Pseudokarst-Höhlen, die interessante Fauna sowie archäologische Funde aus der Bronzezeit enthalten."
+            },
+            "besediceRocks": {
+                "name": "Besedické Felsen",
+                "description": "Ein romantisches Labyrinth aus Sandsteinfelsen liegt oberhalb des linken Ufers der Jizera in der Nähe des Dorfes Besedice im Böhmischen Paradies. Ein Rundweg führt durch die Felsen und macht uns mit den bedeutendsten Orten dieser Gegend bekannt. In der Felsengruppe bei Kalich inmitten von fünf Felsenschluchten verbirgt sich ein Altar mit einem eingemeißelten Kelch und der Jahreszahl 1634."
+            }
+        }
+    }
+}

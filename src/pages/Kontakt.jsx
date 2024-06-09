@@ -2,9 +2,12 @@ import { useEffect } from "react"
 import Heading from "../components/Heading"
 import "../css/kontakt.css"
 
+import translations from '../translations/kontakt.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
 function KontaktPage() {
 	useEffect(() => {
-		document.title = 'Kontakt | Eden Jinolice';
+		document.title = translations[lang].heading + " | Eden Jinolice";
 	}, []);
 
 	const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/kontakt2.webp';
@@ -19,17 +22,17 @@ function KontaktPage() {
 			<Heading text="Kontakt" img={HeadingImage} />
 			<div className="main-content">
 				<section className="main-section kontakt-section  zakladni-udaje">
-					<h2>Kontaktní údaje</h2>
+					<h2>{translations[lang].contactInfoHeading}</h2>
 					<div className="udaje" style={{ textAlign: "center" }}>
 						<div>
-							<h3>Adresa kempu</h3>
+							<h3>{translations[lang].address}</h3>
 							<br />
 							<p>EDEN BŘEZKA s.r.o.</p>
 							<p>Libuň - Březka 152</p>
 							<p>Jičín 506 01</p>
 						</div>
 						<div>
-							<h3>Spojení</h3>
+							<h3>{translations[lang].connection}</h3>
 							<br />
 
 							<p style={p1}>
@@ -52,34 +55,34 @@ function KontaktPage() {
 					</div>
 				</section>
 				<section className="main-section kontakt-section oteviraci-doba">
-					<h2>Otevírací doba</h2>
+					<h2>{translations[lang].openingHours}</h2>
 					<div className="udaje" style={{ textAlign: "center" }}>
 						<div>
-							<h3>Rekreační zařízení <br /> (Červenec - srpen)</h3>
+							<h3>{translations[lang].recreationalComplex} <br /> ({translations[lang].monthSpan})</h3>
 							<br />
-							<p><span className="time-col">Pondělí</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Úterý</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Středa</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Čtvrtek</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Pátek</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Sobota</span><span className="time-col">7:00 - 21:00</span></p>
-							<p><span className="time-col">Neděle</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.monday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.tuesday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.wednesday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.thursday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.friday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.saturday}</span><span className="time-col">7:00 - 21:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.sunday}</span><span className="time-col">7:00 - 21:00</span></p>
 						</div>
 						<div>
-							<h3>Restaurace <br /> &nbsp;</h3>
+							<h3>{translations[lang].restaurant} <br /> &nbsp;</h3>
 							<br />
-							<p><span className="time-col">Pondělí</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Úterý</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Středa</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Čtvrtek</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Pátek</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Sobota</span><span className="time-col">8:00 - 22:00</span></p>
-							<p><span className="time-col">Neděle</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.monday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.tuesday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.wednesday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.thursday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.friday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.saturday}</span><span className="time-col">8:00 - 22:00</span></p>
+							<p><span className="time-col">{translations[lang].weekdays.sunday}</span><span className="time-col">8:00 - 22:00</span></p>
 						</div>
 					</div>
 				</section>
 				<section className="main-section">
-					<h2>Kde nás najdete na mapě?</h2>
+					<h2>{translations[lang].whereToFindUs}</h2>
 				</section>
 			</div>
 			<div className="mapa">

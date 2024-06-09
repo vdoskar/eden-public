@@ -1,11 +1,11 @@
 import { Link  } from "react-router-dom"
+import translations from '../translations/components.json';
+const lang = localStorage.getItem('lang') || 'cz';
 
 function Footer() {
-
     const Logo = 'https://cdn.edenjinolice.cz/web_assets/logo.webp';
     const EmailImage = 'https://cdn.edenjinolice.cz/web_assets/email.webp';
     const PhoneImage = 'https://cdn.edenjinolice.cz/web_assets/phone.webp';
-
 
     const p1 = { display: "flex", flexDirection: "row", alignItems: "center", fontSize: "16px"}
     const a1 = {textAlign:"center", display:"inline-block"}
@@ -35,7 +35,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <div style={{marginBottom: "5px"}}>
-                    <span>Vytvořil Vladimír Doškář</span>
+                    <span>{translations[lang].footer.createdBy}</span>
                 </div>
                 <div>
                     <span>

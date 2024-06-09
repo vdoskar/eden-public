@@ -1,0 +1,107 @@
+{
+    "cz": {
+        "heading": "Ubytování",
+        "secondaryTitle": "Naše zařízení nabízí ubytování hned v několika variantách",
+        "mapText": "Orientační mapa rekreačního zařízení Eden Jinolice",
+        "types": {
+            "mainBuilding": {
+                "title": "Hlavní budova",
+                "text": "Ubytovat se lze i na hlavní budově, kde jsou pokoje ve složení od 1 do 5 lůžek. Celková kapacita 61 míst. Sprchy a toalety jsou na budově."
+            },
+            "woodenCottage": {
+                "title": "Dřevěné chatky",
+                "text": "Rekreační zařízení nabízí ubytování ve 3 a 4 lůžkových chatkách s kapacitou celkem 75 míst. Sprchy s teplou vodou a toalety jsou společné, lednička na chatkách je samozřejmostí."
+            },
+            "caravan": {
+                "title": "Karavany",
+                "text": "K rekreačnímu zařízení náleží i místo k rekreaci pod stanem nebo v karavanu. Prostor kempu je vybaven elektrickými přípojkami, osvětlením a rozvodem pitné vody. Sociální zařízení disponuje sprchami, umývárnou a toaletami. Ubytovaným je k dispozici i pračka."
+            },
+            "mobileHome": {
+                "title": "Mobilní domy",
+                "text": "Reakreační zařízení nabízí možnost ubytování ve 3 mobilních domech s kapacitou 14 míst (2 domy čtyřlůžkové a 1 šestilůžkový). Součástí každého mobilního domu je vybavená kuchyňská linka, vařič a lednička. Samozřejmostí je i samostatná sprcha s teplou vodou a sociální zařízení. Na realizaci mobilních domů se podílela firma marvel."
+            },
+            "okal": {
+                "title": "Okály",
+                "text": "Další možností ubytovávání jsou čtyři okály. Na okálech s číslem 1 a 2 naleznete 7 pokojů po 2-6 lůžkách. Kapacita jednoho okálu je 27 lůžek. Na okálech č. 3 a 4 naleznete čtyřlůžkové pokoje s vlastním soc. zařízením na pokoji, lednicí a konvicí na kávu. Kapacita jednoho okálu je 16 osob."
+            },
+            "tent": {
+                "title": "Stanování",
+                "text": "K rekreačnímu zařízení náleží i místo k rekreaci pod stanem nebo v karavanu. Prostor kempu je vybaven elektrickými přípojkami, osvětlením a rozvodem pitné vody. Sociální zařízení disponuje sprchami, umývárnou a toaletami. Ubytovaným je k dispozici i pračka."
+            },
+            "bigCottage": {
+                "title": "Velké chaty",
+                "text": "Ideálním ubytováním pro rodinu je velká chata. Dvě chaty nabízí 4 dvoulůžkové pokoje, tři chaty mají 2 čtyřlůžkové pokoje (celková kapacita 40 míst). Chaty disponují vybavenou kuchyňskou linku, vařičem a ledničkou. Samozřejmostí je i sprcha s teplou vodou a sociální zařízení."
+            }
+        }
+    },
+    "gb": {
+        "heading": "Accommodation",
+        "secondaryTitle": "Our complex offers accommodation in several variants",
+        "mapText": "Orientation map of the Eden Jinolice recreational complex",
+        "types": {
+            "mainBuilding": {
+                "title": "Main Building",
+                "text": "You can also stay in the main building, where there are rooms ranging from 1 to 5 beds. Total capacity is 61 places. Showers and toilets are in the building."
+            },
+            "woodenCottage": {
+                "title": "Wooden Cottages",
+                "text": "The recreational complex offers accommodation in 3 and 4 bed cottages with a total capacity of 75 places. Showers with hot water and toilets are shared, and a refrigerator in the cottages is standard."
+            },
+            "caravan": {
+                "title": "Caravans",
+                "text": "The recreational complex also includes a place for camping in tents or caravans. The campsite is equipped with electrical connections, lighting, and drinking water distribution. The sanitary facilities include showers, washrooms, and toilets. A washing machine is also available for guests."
+            },
+            "mobileHome": {
+                "title": "Mobile Homes",
+                "text": "The recreational complex offers accommodation in 3 mobile homes with a capacity of 14 places (2 four-bed homes and 1 six-bed home). Each mobile home includes a fully equipped kitchenette, stove, and refrigerator. A separate shower with hot water and sanitary facilities are also provided. The mobile homes were developed by Marvel."
+            },
+            "okal": {
+                "title": "Prefab Houses",
+                "text": "Another option is to stay in one of the four prefabricated houses. Houses numbered 1 and 2 have 7 rooms with 2-6 beds each. The capacity of one house is 27 beds. Houses numbered 3 and 4 have four-bed rooms with private bathrooms, refrigerators, and coffee kettles. The capacity of one house is 16 people."
+            },
+            "tent": {
+                "title": "Tenting",
+                "text": "The recreational complex also includes a place for camping in tents or caravans. The campsite is equipped with electrical connections, lighting, and drinking water distribution. The sanitary facilities include showers, washrooms, and toilets. A washing machine is also available for guests."
+            },
+            "bigCottage": {
+                "title": "Large Cottages",
+                "text": "The ideal accommodation for a family is a large cottage. Two cottages offer 4 double rooms, and three cottages have 2 four-bed rooms (total capacity 40 places). The cottages are equipped with a kitchenette, stove, and refrigerator. A shower with hot water and sanitary facilities are also provided."
+            }
+        }
+    },
+    "de": {
+        "heading": "Unterkunft",
+        "secondaryTitle": "Unsere Einrichtung bietet Unterkünfte in mehreren Varianten",
+        "mapText": "Orientierungskarte der Freizeiteinrichtung Eden Jinolice",
+        "types": {
+            "mainBuilding": {
+                "title": "Hauptgebäude",
+                "text": "Sie können auch im Hauptgebäude übernachten, wo es Zimmer von 1 bis 5 Betten gibt. Die Gesamtkapazität beträgt 61 Plätze. Duschen und Toiletten befinden sich im Gebäude."
+            },
+            "woodenCottage": {
+                "title": "Holzhütten",
+                "text": "Die Freizeiteinrichtung bietet Unterkünfte in 3- und 4-Bett-Hütten mit einer Gesamtkapazität von 75 Plätzen. Duschen mit warmem Wasser und Toiletten sind gemeinschaftlich, und ein Kühlschrank in den Hütten ist selbstverständlich."
+            },
+            "caravan": {
+                "title": "Wohnwagen",
+                "text": "Zur Freizeiteinrichtung gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
+            },
+            "mobileHome": {
+                "title": "Mobile Homes",
+                "text": "Die Freizeiteinrichtung bietet Unterkunft in 3 Mobilheimen mit einer Kapazität von 14 Plätzen (2 vierbettige und 1 sechsbettiges Haus). Jedes Mobilheim verfügt über eine voll ausgestattete Küchenzeile, Herd und Kühlschrank. Eine separate Dusche mit warmem Wasser und sanitäre Einrichtungen sind ebenfalls vorhanden. Die Mobilheime wurden von Marvel entwickelt."
+            },
+            "okal": {
+                "title": "Fertighäuser",
+                "text": "Eine weitere Möglichkeit ist die Unterkunft in einem der vier Fertighäuser. In den Häusern Nr. 1 und 2 befinden sich 7 Zimmer mit 2-6 Betten. Die Kapazität eines Hauses beträgt 27 Betten. In den Häusern Nr. 3 und 4 gibt es Vierbettzimmer mit eigenem Bad, Kühlschrank und Wasserkocher. Die Kapazität eines Hauses beträgt 16 Personen."
+            },
+            "tent": {
+                "title": "Zelten",
+                "text": "Zur Freizeiteinrichtung gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
+            },
+            "bigCottage": {
+                "title": "Große Hütten",
+                "text": "Die ideale Unterkunft für eine Familie ist eine große Hütte. Zwei Hütten bieten 4 Doppelzimmer, und drei Hütten haben 2 Vierbettzimmer (Gesamtkapazität 40 Plätze). Die Hütten sind mit einer Küchenzeile, Herd und Kühlschrank ausgestattet. Eine Dusche mit warmem Wasser und sanitäre Einrichtungen sind ebenfalls vorhanden."
+            }
+        }
+    }
+}

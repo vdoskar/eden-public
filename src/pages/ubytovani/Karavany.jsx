@@ -1,16 +1,15 @@
-
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery"
 
-function KaravanyPage() {
-    useEffect(() => {
-        document.title = 'Karavany | Ubytování | Eden Jinolice';
-    }, []);
+function KaravanyPage({translation}) {
+	useEffect(() => {
+		document.title = translation.types.caravan.title + ' | ' + translation.heading + ' | Eden Jinolice';
+	}, []);
 
 	const karavany = [
 		{
-			name: "Karavany",
-			description: "K rekreačnímu zařízení náleží i místo k rekreaci pod stanem nebo v karavanu. Prostor kempu je vybaven elektrickými přípojkami, osvětlením a rozvodem pitné vody. Sociální zařízení disponuje sprchami, umývárnou a toaletami. Ubytovaným je k dispozici i pračka.",
+			name: translation.types.caravan.title,
+			description: translation.types.caravan.text,
 			gallery: [
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/karavany/karavany-0.webp',
 				'https://cdn.edenjinolice.cz/web_assets/ubytovani/karavany/karavany-1.webp',

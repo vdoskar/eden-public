@@ -2,15 +2,17 @@ import { useEffect } from "react"
 import Heading from "../components/Heading"
 import Gallery from "../components/LightboxGallery"
 
+import translations from '../translations/stravovani.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
 function StravovaniPage() {
 	useEffect(() => {
-		document.title = 'Stravování | Eden Jinolice';
+		document.title = translations[lang].heading + ' | Eden Jinolice';
 	}, []);
 
-	const HeadingImage = "http://cdn.edenjinolice.cz/web_assets/stravovani.webp";
 	const stravovani = [
 		{
-			name: "Galerie restaurace",
+			name: translations[lang].restaurandGallery,
 			description: "",
 			gallery: [
 				"http://cdn.edenjinolice.cz/web_assets/stravovani/stravovani/stravovani-0.webp",
@@ -39,12 +41,18 @@ function StravovaniPage() {
 
 	return (
 		<div className="main">
-			<Heading text="Stravování" img={HeadingImage} />
+			<Heading text={translations[lang].heading} img="http://cdn.edenjinolice.cz/web_assets/stravovani.webp" />
 			<div className="main-content" style={{ position: "relative" }}>
 				<section className="main-section">
-					<p>Návštěvníci mohou využít možnosti plné penze nebo polopenze (není podmínkou při ubytování) v restauraci přímo v objektu rekreačního zařízení. Restaurace s terasou disponuje kapacitou 100 míst. Je zde umístěna televize a satelitní přijímač, k dispozici Wifi zdarma. Součástí objektu restaurace jsou také prostory určené pro grilování. Mimo sezónu je možno pořádat školení, teambuildingové akce, výroční schůze, večírky, svatební a jiné oslavy.</p>
+					{
+                        translations[lang].paragraphs.map((text, i) => {
+                            return <p key={i}>{text}</p>
+                        })
+                    }
 					<p>
-						Webové stránky restaurace <a href="https://edenrestaurace.cz/" target="blank">naleznete zde</a>.
+						<a href="https://edenrestaurace.cz/" target="blank">
+                            {translations[lang].restaurantWebsite}
+                        </a>
 					</p>
 				</section>
 				<section className="main-section">

@@ -1,0 +1,32 @@
+{
+    "cz": {
+        "about": "O nás",
+        "accomodation": "Ubytování",
+        "catering": "Stravování",
+        "funAndSport": "Zábava a sport",
+        "tipsForTrips": "Tipy na výlety",
+        "pricing": "Ceník",
+        "contact": "Kontakt",
+        "reservation": "Rezervace"
+    },
+    "gb": {
+        "about": "About us",
+        "accomodation": "Accomodation",
+        "catering": "Catering",
+        "funAndSport": "Entertainment and sports",
+        "tipsForTrips": "Tips for trips",
+        "pricing": "Pricing",
+        "contact": "Contact",
+        "reservation": "Reservation"
+    },
+    "de": {
+        "about": "Über uns",
+        "accomodation": "Unterkunft",
+        "catering": "Verpflegung",
+        "funAndSport": "Unterhaltung und Sport",
+        "tipsForTrips": "Tipps für Ausflüge",
+        "pricing": "Preise",
+        "contact": "Kontakt",
+        "reservation": "Reservierung"
+    }
+}

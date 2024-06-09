@@ -1,5 +1,49 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation, NavLink } from "react-router-dom"
+import translations from '../translations/nav.json';
+
+const lang = localStorage.getItem('lang') || 'cz';
+const NavStructure = [
+    {
+        title: translations[lang].about,
+        link: "",
+        submenu: [
+            {
+                title: translations[lang].accomodation,
+                link: "ubytovani",
+            },
+            {
+                title: translations[lang].catering,
+                link: "stravovani",
+            },
+        ]
+    },
+    {
+        title: translations[lang].funAndSport,
+        link: "zabava-a-sport",
+        submenu: []
+    },
+    {
+        title: translations[lang].tipsForTrips,
+        link: "tipy-na-vylet",
+        submenu: []
+    },
+    {
+        title: translations[lang].pricing,
+        link: "cenik",
+        submenu: []
+    },
+    {
+        title: translations[lang].contact,
+        link: "kontakt",
+        submenu: [
+            {
+                title: translations[lang].reservation,
+                link: "rezervace",
+            }
+        ]
+    },
+]
 
 const NavItem = ({ item }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -45,113 +89,50 @@ const SubmenuItem = ({ submenuItem }) => {
     const location = useLocation();
 
     useEffect(() => {
-        const currentPath = window.location.pathname;
-        const tab = getActiveTab(currentPath);
-        setActiveTab(tab);
+        setActiveTab(getActiveTab(window.location.pathname));
     }, [location]);
 
     const getActiveTab = (currentPath) => {
-        switch (currentPath) {
-            case '/': return 'uvod';
-            case '': return 'uvod';
-            case '/tipy-na-vylet': return 'tipy-na-vylet';
-            case '/kontakt': return 'kontakt';
-            case '/cenik': return 'cenik';
-            case '/ubytovani': return 'ubytovani';
-            case '/rezervace': return 'rezervace';
-            case '/stravovani': return 'stravovani';
-            case '/zabava-a-sport': return 'zabava-a-sport';
-            case '/novinky': return 'novinky';
-            default: return 'uvod';
+        if (currentPath === '/') {
+            return 'uvod';
+        } else {
+            return currentPath.substring(1);
         }
     };
 
     return (
         <li>
-            <Link 
-                to={`/${submenuItem.link}`} 
-                className={activeTab === `/${submenuItem.link}` ? 'active' : ''}
-                >
-                    {submenuItem.title}
+            <Link to={`/${submenuItem.link}`} className={activeTab === `/${submenuItem.link}` ? 'active' : ''}>
+                {submenuItem.title}
             </Link>
-
         </li>
     );
 };
 
 function Navigation() {
-
-    const Logo = 'https://cdn.edenjinolice.cz/web_assets/logo.webp';
-
-    const NavStructure = [
-        {
-            title: "O nás",
-            link: "",
-            submenu: [
-                {
-                    title: "Ubytování",
-                    link: "ubytovani",
-                },
-                {
-                    title: "Stravování",
-                    link: "stravovani",
-                },
-            ]
-        },
-        {
-            title: "Zábava a sport",
-            link: "zabava-a-sport",
-            submenu: []
-        },
-        {
-            title: "Tipy na výlet",
-            link: "tipy-na-vylet",
-            submenu: []
-        },
-        {
-            title: "Ceník",
-            link: "cenik",
-            submenu: []
-        },
-        {
-            title: "Kontakt",
-            link: "kontakt",
-            submenu: [
-                {
-                    title: "Rezervace",
-                    link: "rezervace",
-                }
-            ]
-        },
-    ]
-
-    const [prevLocation, setPrevLocation] = useState('');
-    let currLocation = useLocation();
+    const [previousLocation, setPreviousLocation] = useState('');
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const navWidth = 1148;
+    let resizeTimer;
+    let currentLocation = useLocation();
 
     // ukládá poslední navštívenou stránku a zavírá nav při kliku na linky
     useEffect(() => {
         const currentPath = window.location.pathname;
-        if (prevLocation != currentPath) {
+        if (previousLocation != currentPath) {
             if (window.innerWidth <= navWidth && isMobileMenuOpen) {
                 toggleMobileMenu();
             }
         }
-        const prevPath = setPrevLocation(currentPath)
-
-    }, [currLocation]);
-
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const navWidth = 812
-    let resizeTimer;
+        setPreviousLocation(currentPath)
+    }, [currentLocation]);
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
         if (!isMobileMenuOpen) {
             document.querySelectorAll(".overflow")[0].style.opacity = "0.5";
-            console.log("mobile menu open")
         } else {
             document.querySelectorAll(".overflow")[0].style.opacity = "1";
-            console.log("mobile menu closed")
         }
     };
 
@@ -189,8 +170,13 @@ function Navigation() {
         <div className="header-container">
             <div className="logo">
                 <Link to="/">
-                    <img src={Logo} alt="Logo Eden" width="" height=""/>
+                    <img src="https://cdn.edenjinolice.cz/web_assets/logo.webp" alt="Logo Eden" width="" height=""/>
                 </Link>
+                <div className='langs'>
+                    <LangButton givenLang="cz" />
+                    <LangButton givenLang="gb" />
+                    <LangButton givenLang="de" />
+                </div>
             </div>
             <div className="nav-container">
                 <nav id="navbar_main" className={`navbar ${isMobileMenuOpen ? 'mobile-menu-open' : ''} main-nav`}>
@@ -209,5 +195,23 @@ function Navigation() {
         </div >
     )
 }
+
+const LangButton = ({ givenLang }) => {
+    const [lang, setLang] = useState(localStorage.getItem('lang') || 'cz');
+
+    const changeLanguage = (newLang) => {
+        if (localStorage.getItem('lang') == newLang) return;
+
+        localStorage.setItem('lang', newLang);
+        location.reload();
+        setLang(newLang);
+    };
+
+    return (
+        <button onClick={() => changeLanguage(givenLang)} className='lang-button'>
+            <img src={`https://cdn.edenjinolice.cz/flags/${givenLang}.svg`} alt={givenLang} />
+        </button>
+    );
+};
 
 export default Navigation

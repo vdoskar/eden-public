@@ -1,16 +1,15 @@
 import { useEffect } from "react"
 import Gallery from "../../components/LightboxGallery";
 
-function VelkeChatyPage() {
+function VelkeChatyPage({translation}) {
 	useEffect(() => {
-		document.title = 'Velké chaty | Ubytování | Eden Jinolice';
+		document.title = translation.types.bigCottage.title + ' | ' + translation.heading + ' | Eden Jinolice';
 	}, []);
 
 	const velkeChaty = [
 		{
-			name: "Velké chaty",
-			description:
-				"Ideálním ubytováním pro rodinu je velká chata. Dvě chaty nabízí 4 dvoulůžkové pokoje, tři chaty mají 2 čtyřlůžkové pokoje (celková kapacita 40 míst). Chaty disponují vybavenou kuchyňskou linku, vařičem a ledničkou. Samozřejmostí je i sprcha s teplou vodou a sociální zařízení.",
+			name: translation.types.bigCottage.title,
+			description: translation.types.bigCottage.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/ubytovani/velke-chaty/velke-chaty-4.webp",
 				"https://cdn.edenjinolice.cz/web_assets/ubytovani/velke-chaty/velke-chaty-3.webp",

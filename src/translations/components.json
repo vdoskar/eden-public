@@ -1,0 +1,35 @@
+{
+    "cz": {
+        "contactUs": {
+            "mainText": "Potřebujete poradit nebo se na něco zeptat?",
+            "writeUs": "NAPIŠTE NÁM NA",
+            "callUs": "ZAVOLEJTE NÁM NA"
+        },
+        "footer": {
+            "createdBy": "Vytvořil Vladimír Doškář"
+        },
+        "backToTop": "Zpět nahoru"
+    },
+    "gb": {
+        "contactUs": {
+            "mainText": "Need help or have a question?",
+            "writeUs": "WRITE US AT",
+            "callUs": "CALL US AT"
+        },
+        "footer": {
+            "createdBy": "Created by Vladimír Doškář"
+        },
+        "backToTop": "Back to top"
+    },
+    "de": {
+        "contactUs": {
+            "mainText": "Brauchen Sie Hilfe oder haben Sie eine Frage?",
+            "writeUs": "SCHREIBEN SIE UNS AN",
+            "callUs": "RUFEN SIE UNS AN"
+        },
+        "footer": {
+            "createdBy": "Erstellt von Vladimír Doškář"
+        },
+        "backToTop": "Zurück nach oben"
+    }
+}

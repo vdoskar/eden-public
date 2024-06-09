@@ -3,16 +3,18 @@ import Heading from "../components/Heading"
 import Gallery from "../components/LightboxGallery"
 import "../css/ZabavaSport.css"
 
+import translations from '../translations/zabavaSport.json';
+const lang = localStorage.getItem('lang') || 'cz';
+
 function ZabavaSportPage() {
 	useEffect(() => {
-		document.title = "Zábava a sport | Eden Jinolice";
+		document.title = translations[lang].heading + " | Eden Jinolice";
 	}, []);
 
-	const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/zabava_a_sport.webp';
 	const attractions = [
 		{
-			name: "Pláž",
-			description: "Součástí kempu jsou dvě písčité pláže s hřištěm pro plážový volejbal. U pláží jsou umístěny sprchy a dětské prolézačky.",
+			name: translations[lang].attractions.beach.title,
+			description: translations[lang].attractions.beach.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/plaz/plaz-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/plaz/plaz-1.webp",
@@ -29,8 +31,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Bazén",
-			description: "Bazén pro dospělé s hloubkou 1,6m a dětský bazén s hloubkou 0,6m. Vstup do bazénu je za poplatek pro ubytované hosty.",
+			name: translations[lang].attractions.pool.title,
+			description: translations[lang].attractions.pool.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/bazen/bazen-1.webp",
@@ -43,8 +45,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Stolní tenis",
-			description: "Dva ping-pongové stoly, vybavení lze zapůjčit na recepci.",
+			name: translations[lang].attractions.tableTennis.title,
+			description: translations[lang].attractions.tableTennis.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/stolni-tenis/stolni-tenis-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/stolni-tenis/stolni-tenis-1.webp",
@@ -57,8 +59,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Volejbal",
-			description: "Hřiště na pláži pro beach volejbal, míč lze zapůjčit v recepci.",
+			name: translations[lang].attractions.volleyball.title,
+			description: translations[lang].attractions.volleyball.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/volejbal/volejbal-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/volejbal/volejbal-1.webp"
@@ -69,8 +71,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Hrací hřiště",
-			description: "Součástí kempu je univerzální hřiště s umělým povrchem. Míč k zapůjčení v recepci.",
+			name: translations[lang].attractions.playground.title,
+			description: translations[lang].attractions.playground.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/hriste/hriste-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/hriste/hriste-1.webp",
@@ -83,8 +85,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Kryté ohniště",
-			description: "K dispozici kryté ohniště, které lze využít ke grilování. Dále kryté posezení a lednice.",
+			name: translations[lang].attractions.firePit.title,
+			description: translations[lang].attractions.firePit.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/ohniste/ohniste-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/ohniste/ohniste-1.webp",
@@ -101,8 +103,8 @@ function ZabavaSportPage() {
 			]
 		},
 		{
-			name: "Rybaření",
-			description: "Jinolické rybníky jsou rájem rybářů. Povolenky k lovu jsou k dispozici ke koupi v sousedním kempu.",
+			name: translations[lang].attractions.fishing.title,
+			description: translations[lang].attractions.fishing.text,
 			gallery: [
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/rybareni/rybareni-0.webp",
 				"https://cdn.edenjinolice.cz/web_assets/zabava_a_sport/rybareni/rybareni-1.webp",
@@ -118,11 +120,11 @@ function ZabavaSportPage() {
 
 	return (
 		<div className="main">
-			<Heading text="Zábava a sport" img={HeadingImage} />
+			<Heading text={translations[lang].heading} img='https://cdn.edenjinolice.cz/web_assets/zabava_a_sport.webp' />
 			<div className="main-content">
-				<p>Rekreační zařízení EDEN nabízí celou řadu sportovišť a rekreačních prostor pro aktivní trávení volného času. Návštěvníkům je k dispozici jeden bazén pro dospělé (hloubka 1,6m) a jeden dětský bazén (hloubka 0,6m), pláž s hřištěm pro beach volejbal, tenisový kurt, hřiště na fotbal, streetball či nohejbal, ping-pongové stoly i kryté ohniště.</p>
+				<p>{translations[lang].introParagraph}</p>
 				<section className="main-section">
-					<h2>Dostupné atrakce</h2>
+					<h2>{translations[lang].attractionsHeading}</h2>
 					<Gallery data={attractions} />
 				</section>
 			</div>
