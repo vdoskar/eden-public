@@ -208,7 +208,7 @@
         "map": "Auf Karte anzeigen",
         "trace": "Route anzeigen",
         "castlesLabel": "Schlösser",
-        "ruinsLabel": "Burgs und burgruinen",
+        "ruinsLabel": "Burgs und Burgruinen",
         "recreationLabel": "Erholung und Schwimmen",
         "cyclingLabel": "Radfahren",
         "rockCitiesLabel": "Felsenstädte",
@@ -260,7 +260,7 @@
             },
             "jinolicePonds": {
                 "name": "Jinolice Teiche",
-                "description": "Die Jinolice-Teiche sind ein System von drei Teichen, die in der Nähe des Dorfes Jinolice im geschützten Landschaftsgebiet Böhmisches Paradies liegen. Sie sind die Heimat unserer Freizeiteinrichtung Eden und weiterer touristischer Attraktionen."
+                "description": "Die Jinolice-Teiche sind ein System von drei Teichen, die in der Nähe des Dorfes Jinolice im geschützten Landschaftsgebiet Böhmisches Paradies liegen. Sie sind die Heimat unserer Freizeitanlage Eden und weiterer touristischer Attraktionen."
             }
         },
         "cycling": {

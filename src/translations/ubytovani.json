@@ -72,7 +72,7 @@
     "de": {
         "heading": "Unterkunft",
         "secondaryTitle": "Unsere Einrichtung bietet Unterkünfte in mehreren Varianten",
-        "mapText": "Orientierungskarte der Freizeiteinrichtung Eden Jinolice",
+        "mapText": "Orientierungskarte der Freizeitanlage Eden Jinolice",
         "types": {
             "mainBuilding": {
                 "title": "Hauptgebäude",
@@ -80,15 +80,15 @@
             },
             "woodenCottage": {
                 "title": "Holzhütten",
-                "text": "Die Freizeiteinrichtung bietet Unterkünfte in 3- und 4-Bett-Hütten mit einer Gesamtkapazität von 75 Plätzen. Duschen mit warmem Wasser und Toiletten sind gemeinschaftlich, und ein Kühlschrank in den Hütten ist selbstverständlich."
+                "text": "Die Freizeitanlage bietet Unterkünfte in 3- und 4-Bett-Hütten mit einer Gesamtkapazität von 75 Plätzen. Duschen mit warmem Wasser und Toiletten sind gemeinschaftlich, und ein Kühlschrank in den Hütten ist selbstverständlich."
             },
             "caravan": {
                 "title": "Wohnwagen",
-                "text": "Zur Freizeiteinrichtung gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
+                "text": "Zur Freizeitanlage gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
             },
             "mobileHome": {
                 "title": "Mobile Homes",
-                "text": "Die Freizeiteinrichtung bietet Unterkunft in 3 Mobilheimen mit einer Kapazität von 14 Plätzen (2 vierbettige und 1 sechsbettiges Haus). Jedes Mobilheim verfügt über eine voll ausgestattete Küchenzeile, Herd und Kühlschrank. Eine separate Dusche mit warmem Wasser und sanitäre Einrichtungen sind ebenfalls vorhanden. Die Mobilheime wurden von Marvel entwickelt."
+                "text": "Die Freizeitanlage bietet Unterkunft in 3 Mobilheimen mit einer Kapazität von 14 Plätzen (2 vierbettige und 1 sechsbettiges Haus). Jedes Mobilheim verfügt über eine voll ausgestattete Küchenzeile, Herd und Kühlschrank. Eine separate Dusche mit warmem Wasser und sanitäre Einrichtungen sind ebenfalls vorhanden. Die Mobilheime wurden von Marvel entwickelt."
             },
             "okal": {
                 "title": "Fertighäuser",
@@ -96,7 +96,7 @@
             },
             "tent": {
                 "title": "Zelten",
-                "text": "Zur Freizeiteinrichtung gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
+                "text": "Zur Freizeitanlage gehört auch ein Platz zum Zelten oder für Wohnwagen. Der Campingplatz ist mit Stromanschlüssen, Beleuchtung und Trinkwasserversorgung ausgestattet. Die sanitären Einrichtungen verfügen über Duschen, Waschräume und Toiletten. Den Gästen steht auch eine Waschmaschine zur Verfügung."
             },
             "bigCottage": {
                 "title": "Große Hütten",
