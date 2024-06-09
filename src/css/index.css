@@ -293,9 +293,12 @@ table tbody tr th {
     border: none;
     margin: 3px 0;
     cursor: pointer;
-    transition: all 250ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    outline: 1px solid black;
 }
 
 .lang-button:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    width: calc(40px / 1.25);
+    height: calc(30px / 1.25);
 }
