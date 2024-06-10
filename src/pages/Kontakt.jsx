@@ -10,16 +10,12 @@ function KontaktPage() {
 		document.title = translations[lang].heading + " | Eden Jinolice";
 	}, []);
 
-	const HeadingImage = 'https://cdn.edenjinolice.cz/web_assets/kontakt2.webp';
-	const EmailImage = 'https://cdn.edenjinolice.cz/web_assets/email.webp';
-	const PhoneImage = 'https://cdn.edenjinolice.cz/web_assets/phone.webp';
-
 	const p1 = { display: "flex", flexDirection: "row", alignItems: "center" }
 	const a1 = { textAlign: "center", display: "inline-block" }
 
 	return (
 		<div className="main">
-			<Heading text="Kontakt" img={HeadingImage} />
+			<Heading text={translations[lang].heading} img='https://cdn.edenjinolice.cz/web_assets/kontakt2.webp' />
 			<div className="main-content">
 				<section className="main-section kontakt-section  zakladni-udaje">
 					<h2>{translations[lang].contactInfoHeading}</h2>
@@ -36,19 +32,19 @@ function KontaktPage() {
 							<br />
 
 							<p style={p1}>
-								<img width="30px" src={PhoneImage} style={{ marginRight: "10px" }} />
+								<img width="30px" src='https://cdn.edenjinolice.cz/web_assets/phone.webp' style={{ marginRight: "10px" }} />
 								<a style={a1} href="tel:+420493591930">+420 493 591 930</a>
 							</p>
 							<br />
 
 							<p style={p1}>
-								<img width="30px" src={PhoneImage} style={{ marginRight: "10px" }} />
+								<img width="30px" src='https://cdn.edenjinolice.cz/web_assets/phone.webp' style={{ marginRight: "10px" }} />
 								<a style={a1} href="tel:+420493591930">+420 732 588 486</a>
 							</p>
 							<br />
 
 							<p style={p1}>
-								<img width="30px" src={EmailImage} style={{ marginRight: "10px" }} />
+								<img width="30px" src='https://cdn.edenjinolice.cz/web_assets/email.webp' style={{ marginRight: "10px" }} />
 								<a style={a1} href="mailto:info@eden-jinolice.cz">info@eden-jinolice.cz</a>
 							</p>
 						</div>
