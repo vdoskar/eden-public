@@ -9,23 +9,23 @@
         "prices": {
             "okalRoomWCShower": {
                 "label": "okál - WC + sprcha na pokoji / 4 lůžka",
-                "amount": "1700 Kč"
+                "amount": "1800 Kč"
             },
             "okalSingleBed": {
-                "label": "okál / 1 lůžko (v červenci a srpnu se platí celý pokoj)",
-                "amount": "300 Kč"
+                "label": "okál / 1 lůžko",
+                "amount": "350 Kč"
             },
             "mainBuildingSingleBed": {
-                "label": "hlavní budova / 1 lůžko (v červenci a srpnu se platí celý pokoj)",
+                "label": "hlavní budova / 1 lůžko",
                 "amount": "350 Kč"
             },
             "fourBedCottage": {
                 "label": "chatka čtyřlůžková",
-                "amount": "950 Kč"
+                "amount": "1050 Kč"
             },
             "threeBedCottage": {
                 "label": "chatka třílůžková",
-                "amount": "800 Kč"
+                "amount": "900 Kč"
             },
             "largeCottage": {
                 "label": "chata velká",
@@ -33,15 +33,15 @@
             },
             "caravanWCShower": {
                 "label": "maringotka - WC + sprcha / 4 lůžka",
-                "amount": "1 900 Kč"
+                "amount": "2 000 Kč"
             },
             "mobileHomeFourBeds": {
                 "label": "mobilní dům - WC + sprcha / 4 lůžka",
-                "amount": "2 100 Kč"
+                "amount": "2 200 Kč"
             },
             "mobileHomeSixBeds": {
                 "label": "mobilní dům - WC + sprcha / 6 lůžek",
-                "amount": "2 400 Kč"
+                "amount": "2 500 Kč"
             },
             "oneNightSurcharge": {
                 "label": "příplatek za ubytování na 1 noc",
@@ -49,19 +49,19 @@
             },
             "tentTwoPersons": {
                 "label": "stan 2 osoby",
-                "amount": "120 Kč"
+                "amount": "130 Kč"
             },
             "tentThreePersons": {
                 "label": "stan 3 osoby a více",
-                "amount": "160 Kč"
+                "amount": "170 Kč"
             },
             "motorhome": {
                 "label": "obytný automobil",
-                "amount": "200 Kč"
+                "amount": "250 Kč"
             },
             "caravan": {
                 "label": "karavan",
-                "amount": "180 Kč"
+                "amount": "200 Kč"
             },
             "personalCar": {
                 "label": "osobní automobil",
@@ -85,7 +85,7 @@
             },
             "motorcycle": {
                 "label": "motorka",
-                "amount": "70 Kč"
+                "amount": "90 Kč"
             },
             "bicycle": {
                 "label": "kolo",
@@ -93,15 +93,19 @@
             },
             "dog": {
                 "label": "pes",
-                "amount": "90 Kč"
+                "amount": "100 Kč"
+            },
+            "partyTent": {
+                "label": "párty stan",
+                "amount": "150 Kč"
             },
             "halfBoardForSchools": {
                 "label": "polopenze pro školy",
-                "amount": "260 Kč"
+                "amount": "280 Kč"
             },
             "fullBoardForSchools": {
                 "label": "plná penze pro školy",
-                "amount": "330 Kč"
+                "amount": "360 Kč"
             },
             "breakfast": {
                 "label": "snídaně",
@@ -127,23 +131,23 @@
         "prices": {
             "okalRoomWCShower": {
                 "label": "prefabricated house - WC + shower in room / 4 beds",
-                "amount": "1700 CZK"
+                "amount": "1800 CZK"
             },
             "okalSingleBed": {
-                "label": "prefabricated house / 1 bed (in July and August the entire room is charged)",
-                "amount": "300 CZK"
+                "label": "prefabricated house / 1 bed",
+                "amount": "350 CZK"
             },
             "mainBuildingSingleBed": {
-                "label": "main building / 1 bed (in July and August the entire room is charged)",
+                "label": "main building / 1 bed",
                 "amount": "350 CZK"
             },
             "fourBedCottage": {
                 "label": "four-bed cottage",
-                "amount": "950 CZK"
+                "amount": "1050 CZK"
             },
             "threeBedCottage": {
                 "label": "three-bed cottage",
-                "amount": "800 CZK"
+                "amount": "900 CZK"
             },
             "largeCottage": {
                 "label": "large cottage",
@@ -151,35 +155,35 @@
             },
             "caravanWCShower": {
                 "label": "caravan - WC + shower / 4 beds",
-                "amount": "1 900 CZK"
+                "amount": "2 000 CZK"
             },
             "mobileHomeFourBeds": {
                 "label": "mobile home - WC + shower / 4 beds",
-                "amount": "2 100 CZK"
+                "amount": "2 200 CZK"
             },
             "mobileHomeSixBeds": {
                 "label": "mobile home - WC + shower / 6 beds",
-                "amount": "2 400 CZK"
+                "amount": "2 500 CZK"
             },
             "oneNightSurcharge": {
                 "label": "surcharge for accommodation for 1 night",
                 "amount": "50 CZK"
             },
             "tentTwoPersons": {
-                "label": "tent 2 persons",
-                "amount": "120 CZK"
+                "label": "tent 2 people",
+                "amount": "130 CZK"
             },
             "tentThreePersons": {
-                "label": "tent 3 persons and more",
-                "amount": "160 CZK"
+                "label": "tent 3 people and more",
+                "amount": "170 CZK"
             },
             "motorhome": {
                 "label": "motorhome",
-                "amount": "200 CZK"
+                "amount": "250 CZK"
             },
             "caravan": {
                 "label": "caravan",
-                "amount": "180 CZK"
+                "amount": "200 CZK"
             },
             "personalCar": {
                 "label": "personal car",
@@ -203,7 +207,7 @@
             },
             "motorcycle": {
                 "label": "motorcycle",
-                "amount": "70 CZK"
+                "amount": "90 CZK"
             },
             "bicycle": {
                 "label": "bicycle",
@@ -211,15 +215,19 @@
             },
             "dog": {
                 "label": "dog",
-                "amount": "90 CZK"
+                "amount": "100 CZK"
+            },
+            "partyTent": {
+                "label": "party tent",
+                "amount": "150 CZK"
             },
             "halfBoardForSchools": {
                 "label": "half board for schools",
-                "amount": "260 CZK"
+                "amount": "280 CZK"
             },
             "fullBoardForSchools": {
                 "label": "full board for schools",
-                "amount": "330 CZK"
+                "amount": "360 CZK"
             },
             "breakfast": {
                 "label": "breakfast",
@@ -245,23 +253,23 @@
         "prices": {
             "okalRoomWCShower": {
                 "label": "Fertighaus - WC + Dusche im Zimmer / 4 Betten",
-                "amount": "1700 CZK"
+                "amount": "1800 CZK"
             },
             "okalSingleBed": {
-                "label": "Fertighaus / 1 Bett (im Juli und August wird das gesamte Zimmer berechnet)",
-                "amount": "300 CZK"
+                "label": "Fertighaus / 1 Bett",
+                "amount": "350 CZK"
             },
             "mainBuildingSingleBed": {
-                "label": "Hauptgebäude / 1 Bett (im Juli und August wird das gesamte Zimmer berechnet)",
+                "label": "Hauptgebäude / 1 Bett",
                 "amount": "350 CZK"
             },
             "fourBedCottage": {
                 "label": "Vierbett-Hütte",
-                "amount": "950 CZK"
+                "amount": "1050 CZK"
             },
             "threeBedCottage": {
                 "label": "Dreibett-Hütte",
-                "amount": "800 CZK"
+                "amount": "900 CZK"
             },
             "largeCottage": {
                 "label": "große Hütte",
@@ -269,15 +277,15 @@
             },
             "caravanWCShower": {
                 "label": "Wohnwagen - WC + Dusche / 4 Betten",
-                "amount": "1 900 CZK"
+                "amount": "2 000 CZK"
             },
             "mobileHomeFourBeds": {
                 "label": "Mobilheim - WC + Dusche / 4 Betten",
-                "amount": "2 100 CZK"
+                "amount": "2 200 CZK"
             },
             "mobileHomeSixBeds": {
                 "label": "Mobilheim - WC + Dusche / 6 Betten",
-                "amount": "2 400 CZK"
+                "amount": "2 500 CZK"
             },
             "oneNightSurcharge": {
                 "label": "Aufpreis für Unterkunft für 1 Nacht",
@@ -285,19 +293,19 @@
             },
             "tentTwoPersons": {
                 "label": "Zelt 2 Personen",
-                "amount": "120 CZK"
+                "amount": "130 CZK"
             },
             "tentThreePersons": {
                 "label": "Zelt 3 Personen und mehr",
-                "amount": "160 CZK"
+                "amount": "170 CZK"
             },
             "motorhome": {
                 "label": "Wohnmobil",
-                "amount": "200 CZK"
+                "amount": "250 CZK"
             },
             "caravan": {
                 "label": "Wohnwagen",
-                "amount": "180 CZK"
+                "amount": "200 CZK"
             },
             "personalCar": {
                 "label": "Personenwagen",
@@ -321,7 +329,7 @@
             },
             "motorcycle": {
                 "label": "Motorrad",
-                "amount": "70 CZK"
+                "amount": "90 CZK"
             },
             "bicycle": {
                 "label": "Fahrrad",
@@ -329,15 +337,19 @@
             },
             "dog": {
                 "label": "Hund",
-                "amount": "90 CZK"
+                "amount": "100 CZK"
+            },
+            "partyTent": {
+                "label": "Party-Zelt",
+                "amount": "150 CZK"
             },
             "halfBoardForSchools": {
                 "label": "Halbpension für Schulen",
-                "amount": "260 CZK"
+                "amount": "280 CZK"
             },
             "fullBoardForSchools": {
                 "label": "Vollpension für Schulen",
-                "amount": "330 CZK"
+                "amount": "360 CZK"
             },
             "breakfast": {
                 "label": "Frühstück",

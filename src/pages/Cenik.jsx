@@ -31,7 +31,7 @@ function CenikPage() {
                 .filter(key => [
                     'tentTwoPersons', 'tentThreePersons', 'motorhome', 'caravan', 'personalCar',
                     'electricity', 'childThreeToTwelve', 'personOverTwelve', 'municipalityFeeOverEighteen',
-                    'motorcycle', 'bicycle', 'dog'
+                    'motorcycle', 'bicycle', 'dog', 'partyTent'
                 ].includes(key))
                 .reduce((acc, key) => {
                     acc[prices[key].label] = prices[key].amount;
